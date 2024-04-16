@@ -1,0 +1,3165 @@
+Reading table from: train_MC_dataset_original_5mm_all.h5 ...
+Processing events ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_0.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_1.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_2.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_3.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_4.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_5.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_6.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_7.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_8.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_9.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_10.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_11.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_12.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_13.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_14.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_15.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_16.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_17.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_18.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_19.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_20.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_21.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_22.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_23.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_24.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_25.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_26.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_27.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_28.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_29.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_30.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_31.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_32.root ...
+Reading table from: valid_MC_dataset_original_5mm_all.h5 ...
+Processing events ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_0.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_1.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_2.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_3.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_4.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_5.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_6.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_7.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_8.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_9.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_10.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_11.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_12.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_13.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_14.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_15.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_16.root ...
+Reading table from: test_MC_dataset_original_5mm_all.h5 ...
+Processing events ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_0.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_1.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_2.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_3.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_4.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_5.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_6.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_7.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_8.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_9.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_10.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_11.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_12.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_13.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_14.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_15.root ...
+Saving to file /lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_16.root ...
+[2023-11-24 18:50:34,344] INFO: args:
+ - ('regression_mode', False)
+ - ('data_config', '/lhome/ific/f/fkellere/NEXT_Features.yaml')
+ - ('data_train', ['/lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_*.root'])
+ - ('data_val', ['/lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_*.root'])
+ - ('data_test', [])
+ - ('data_fraction', 1)
+ - ('file_fraction', 1)
+ - ('fetch_by_files', True)
+ - ('fetch_step', 1.0)
+ - ('in_memory', False)
+ - ('train_val_split', 0.8)
+ - ('demo', False)
+ - ('lr_finder', None)
+ - ('tensorboard', None)
+ - ('tensorboard_custom_fn', None)
+ - ('network_config', 'top_tagging/networks/particlenet_pf.py')
+ - ('network_option', [])
+ - ('model_prefix', 'output/particlenet')
+ - ('num_epochs', 100)
+ - ('steps_per_epoch', None)
+ - ('steps_per_epoch_val', None)
+ - ('optimizer', 'ranger')
+ - ('optimizer_option', [])
+ - ('lr_scheduler', 'flat+decay')
+ - ('load_epoch', None)
+ - ('start_lr', 0.005)
+ - ('batch_size', 32)
+ - ('use_amp', False)
+ - ('gpus', '0')
+ - ('num_workers', 1)
+ - ('predict', False)
+ - ('predict_output', None)
+ - ('export_onnx', None)
+ - ('io_test', False)
+ - ('copy_inputs', False)
+ - ('log', 'output/particlenet.train.log')
+ - ('print', False)
+ - ('profile', False)
+[2023-11-24 18:50:34,360] INFO: Running in classification mode
+[2023-11-24 18:50:42,450] INFO: Using 33 files for training, range: (0, 1)
+[2023-11-24 18:50:42,451] INFO: Using 17 files for validation, range: (0, 1)
+[2023-11-24 18:50:42,479] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-24 18:50:42,479] INFO: selection: None
+[2023-11-24 18:50:42,479] INFO: test_time_selection: None
+[2023-11-24 18:50:42,480] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-24 18:50:42,480] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-24 18:50:42,480] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-24 18:50:42,480] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-24 18:50:42,480] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-24 18:50:42,480] INFO: label_names: ('_label_',)
+[2023-11-24 18:50:42,480] INFO: observer_names: ()
+[2023-11-24 18:50:42,481] INFO: monitor_variables: ()
+[2023-11-24 18:50:42,490] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-24 18:50:42,491] INFO: selection: None
+[2023-11-24 18:50:42,491] INFO: test_time_selection: None
+[2023-11-24 18:50:42,491] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-24 18:50:42,491] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-24 18:50:42,491] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-24 18:50:42,491] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-24 18:50:42,491] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-24 18:50:42,491] INFO: label_names: ('_label_',)
+[2023-11-24 18:50:42,492] INFO: observer_names: ()
+[2023-11-24 18:50:42,492] INFO: monitor_variables: ()
+[2023-11-24 18:50:42,503] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-24 18:50:42,503] INFO: selection: None
+[2023-11-24 18:50:42,504] INFO: test_time_selection: None
+[2023-11-24 18:50:42,504] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-24 18:50:42,504] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-24 18:50:42,504] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-24 18:50:42,504] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-24 18:50:42,504] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-24 18:50:42,504] INFO: label_names: ('_label_',)
+[2023-11-24 18:50:42,504] INFO: observer_names: ()
+[2023-11-24 18:50:42,505] INFO: monitor_variables: ()
+[2023-11-24 18:50:42,512] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-24 18:50:42,513] INFO: selection: None
+[2023-11-24 18:50:42,513] INFO: test_time_selection: None
+[2023-11-24 18:50:42,513] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-24 18:50:42,513] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-24 18:50:42,513] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-24 18:50:42,513] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-24 18:50:42,513] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-24 18:50:42,513] INFO: label_names: ('_label_',)
+[2023-11-24 18:50:42,513] INFO: observer_names: ()
+[2023-11-24 18:50:42,513] INFO: monitor_variables: ()
+[2023-11-24 18:50:42,588] INFO: Network options: {}
+[2023-11-24 18:50:42,735] INFO: Warning: module FeatureConv is treated as a zero-op.
+[2023-11-24 18:50:42,736] INFO: Warning: module EdgeConvBlock is treated as a zero-op.
+[2023-11-24 18:50:42,736] INFO: Warning: module Dropout is treated as a zero-op.
+[2023-11-24 18:50:42,736] INFO: Warning: module ParticleNet is treated as a zero-op.
+[2023-11-24 18:50:42,736] INFO: Warning: module ParticleNetTagger1Path is treated as a zero-op.
+[2023-11-24 18:50:43,416] INFO: ParticleNetTagger1Path(
+  |0.577 M, 100.000% Params, 0.441 GMac, 100.000% MACs|
+  (pf_conv): FeatureConv(
+    |0.0 M, 0.035% Params, 0.0 GMac, 0.005% MACs|
+    (conv): Sequential(
+      |0.0 M, 0.035% Params, 0.0 GMac, 0.005% MACs|
+      (0): BatchNorm1d(4, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.001% Params, 0.0 GMac, 0.000% MACs|)
+      (1): Conv1d(4, 32, kernel_size=(1,), stride=(1,), bias=False, |0.0 M, 0.022% Params, 0.0 GMac, 0.003% MACs|)
+      (2): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.011% Params, 0.0 GMac, 0.001% MACs|)
+      (3): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.001% MACs|)
+    )
+  )
+  (pn): ParticleNet(
+    |0.577 M, 99.965% Params, 0.441 GMac, 99.995% MACs|
+    (edge_convs): ModuleList(
+      |0.305 M, 52.823% Params, 0.424 GMac, 96.047% MACs|
+      (0): EdgeConvBlock(
+        |0.015 M, 2.575% Params, 0.021 GMac, 4.716% MACs|
+        (convs): ModuleList(
+          |0.012 M, 2.131% Params, 0.02 GMac, 4.456% MACs|
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+          (1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+          (2): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+        )
+        (bns): ModuleList(
+          |0.0 M, 0.067% Params, 0.001 GMac, 0.139% MACs|
+          (0): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+          (2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.0 GMac, 0.070% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+        )
+        (sc): Conv1d(32, 64, kernel_size=(1,), stride=(1,), bias=False, |0.002 M, 0.355% Params, 0.0 GMac, 0.046% MACs|)
+        (sc_bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.003% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.001% MACs|)
+      )
+      (1): EdgeConvBlock(
+        |0.058 M, 10.121% Params, 0.081 GMac, 18.437% MACs|
+        (convs): ModuleList(
+          |0.049 M, 8.523% Params, 0.079 GMac, 17.825% MACs|
+          (0): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+          (1): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+          (2): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+        )
+        (bns): ModuleList(
+          |0.001 M, 0.133% Params, 0.001 GMac, 0.279% MACs|
+          (0): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+          (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+          (2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.001 GMac, 0.139% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+        )
+        (sc): Conv1d(64, 128, kernel_size=(1,), stride=(1,), bias=False, |0.008 M, 1.420% Params, 0.001 GMac, 0.186% MACs|)
+        (sc_bn): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.006% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.003% MACs|)
+      )
+      (2): EdgeConvBlock(
+        |0.231 M, 40.128% Params, 0.322 GMac, 72.894% MACs|
+        (convs): ModuleList(
+          |0.197 M, 34.091% Params, 0.315 GMac, 71.299% MACs|
+          (0): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+          (1): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+          (2): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+        )
+        (bns): ModuleList(
+          |0.002 M, 0.266% Params, 0.002 GMac, 0.557% MACs|
+          (0): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+          (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+          (2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.001 GMac, 0.279% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+        )
+        (sc): Conv1d(128, 256, kernel_size=(1,), stride=(1,), bias=False, |0.033 M, 5.682% Params, 0.003 GMac, 0.743% MACs|)
+        (sc_bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.0 GMac, 0.012% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.006% MACs|)
+      )
+    )
+    (fusion_block): Sequential(
+      |0.173 M, 29.963% Params, 0.017 GMac, 3.925% MACs|
+      (0): Conv1d(448, 384, kernel_size=(1,), stride=(1,), bias=False, |0.172 M, 29.830% Params, 0.017 GMac, 3.899% MACs|)
+      (1): BatchNorm1d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.133% Params, 0.0 GMac, 0.017% MACs|)
+      (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.009% MACs|)
+    )
+    (fc): Sequential(
+      |0.099 M, 17.179% Params, 0.0 GMac, 0.023% MACs|
+      (0): Sequential(
+        |0.099 M, 17.090% Params, 0.0 GMac, 0.022% MACs|
+        (0): Linear(in_features=384, out_features=256, bias=True, |0.099 M, 17.090% Params, 0.0 GMac, 0.022% MACs|)
+        (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.000% MACs|)
+        (2): Dropout(p=0.1, inplace=False, |0.0 M, 0.000% Params, 0.0 GMac, 0.000% MACs|)
+      )
+      (1): Linear(in_features=256, out_features=2, bias=True, |0.001 M, 0.089% Params, 0.0 GMac, 0.000% MACs|)
+    )
+  )
+)
+[2023-11-24 18:50:43,420] INFO: Computational complexity:       0.44 GMac
+[2023-11-24 18:50:43,421] INFO: Number of parameters:           576.71 k
+[2023-11-24 18:50:47,460] INFO: Using loss function CrossEntropyLoss() with options {}
+[2023-11-24 18:50:47,461] INFO: Optimizer options: {}
+--------------------------------------------------
+[2023-11-24 18:50:47,554] INFO: Epoch #0 training
+[2023-11-24 18:55:00,115] INFO: Processed 322112 entries in total (avg. speed 1275.4 entries/s)
+[2023-11-24 18:55:00,116] INFO: Train AvgLoss: 0.30890, AvgAcc: 0.86430
+[2023-11-24 18:55:00,116] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-24 18:55:00,149] INFO: Epoch #0 validating
+[2023-11-24 18:55:47,637] INFO: Processed 161056 entries in total (avg. speed 3391.7 entries/s)
+[2023-11-24 18:55:47,637] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-24 18:55:47,724] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 18:55:47,884] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9572052]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.74080934 0.25919066]
+ [0.04678424 0.95321576]]
+[2023-11-24 18:55:47,934] INFO: [1mEpoch #0: Current validation metric: 0.89270 (best: 0.89270)[0m
+--------------------------------------------------
+[2023-11-24 18:55:47,934] INFO: Epoch #1 training
+[2023-11-24 18:59:47,475] INFO: Processed 322112 entries in total (avg. speed 1344.7 entries/s)
+[2023-11-24 18:59:47,475] INFO: Train AvgLoss: 0.23348, AvgAcc: 0.90602
+[2023-11-24 18:59:47,475] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 18:59:47,518] INFO: Epoch #1 validating
+[2023-11-24 19:00:35,123] INFO: Processed 161056 entries in total (avg. speed 3383.2 entries/s)
+[2023-11-24 19:00:35,124] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 19:00:35,159] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:00:35,225] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96639353]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.88679698 0.11320302]
+ [0.0693874  0.9306126 ]]
+[2023-11-24 19:00:35,273] INFO: [1mEpoch #1: Current validation metric: 0.91813 (best: 0.91813)[0m
+--------------------------------------------------
+[2023-11-24 19:00:35,274] INFO: Epoch #2 training
+[2023-11-24 19:04:35,698] INFO: Processed 322112 entries in total (avg. speed 1339.8 entries/s)
+[2023-11-24 19:04:35,698] INFO: Train AvgLoss: 0.21412, AvgAcc: 0.91611
+[2023-11-24 19:04:35,698] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 19:04:35,742] INFO: Epoch #2 validating
+[2023-11-24 19:05:23,169] INFO: Processed 161056 entries in total (avg. speed 3397.7 entries/s)
+[2023-11-24 19:05:23,170] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 19:05:23,206] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:05:23,269] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96862537]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.92170407 0.07829593]
+ [0.08383551 0.91616449]]
+[2023-11-24 19:05:23,270] INFO: [1mEpoch #2: Current validation metric: 0.91774 (best: 0.91813)[0m
+--------------------------------------------------
+[2023-11-24 19:05:23,270] INFO: Epoch #3 training
+[2023-11-24 19:09:23,958] INFO: Processed 322112 entries in total (avg. speed 1338.3 entries/s)
+[2023-11-24 19:09:23,959] INFO: Train AvgLoss: 0.20233, AvgAcc: 0.92164
+[2023-11-24 19:09:23,959] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 19:09:24,006] INFO: Epoch #3 validating
+[2023-11-24 19:10:11,440] INFO: Processed 161056 entries in total (avg. speed 3395.5 entries/s)
+[2023-11-24 19:10:11,440] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 19:10:11,475] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:10:11,537] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9699438]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88448715 0.11551285]
+ [0.05870707 0.94129293]]
+[2023-11-24 19:10:11,567] INFO: [1mEpoch #3: Current validation metric: 0.92511 (best: 0.92511)[0m
+--------------------------------------------------
+[2023-11-24 19:10:11,567] INFO: Epoch #4 training
+[2023-11-24 19:14:12,015] INFO: Processed 322112 entries in total (avg. speed 1339.6 entries/s)
+[2023-11-24 19:14:12,015] INFO: Train AvgLoss: 0.19520, AvgAcc: 0.92508
+[2023-11-24 19:14:12,016] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 19:14:12,062] INFO: Epoch #4 validating
+[2023-11-24 19:14:59,471] INFO: Processed 161056 entries in total (avg. speed 3397.2 entries/s)
+[2023-11-24 19:14:59,471] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 19:14:59,510] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:14:59,574] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9737935]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.9104598  0.0895402 ]
+ [0.06135491 0.93864509]]
+[2023-11-24 19:14:59,618] INFO: [1mEpoch #4: Current validation metric: 0.93061 (best: 0.93061)[0m
+--------------------------------------------------
+[2023-11-24 19:14:59,618] INFO: Epoch #5 training
+[2023-11-24 19:19:00,382] INFO: Processed 322112 entries in total (avg. speed 1337.9 entries/s)
+[2023-11-24 19:19:00,382] INFO: Train AvgLoss: 0.18844, AvgAcc: 0.92805
+[2023-11-24 19:19:00,382] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-24 19:19:00,413] INFO: Epoch #5 validating
+[2023-11-24 19:19:47,941] INFO: Processed 161056 entries in total (avg. speed 3388.7 entries/s)
+[2023-11-24 19:19:47,942] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 19:19:47,981] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:19:48,043] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96739286]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.8813467  0.1186533 ]
+ [0.06591355 0.93408645]]
+[2023-11-24 19:19:48,043] INFO: [1mEpoch #5: Current validation metric: 0.91906 (best: 0.93061)[0m
+--------------------------------------------------
+[2023-11-24 19:19:48,043] INFO: Epoch #6 training
+[2023-11-24 19:23:48,481] INFO: Processed 322112 entries in total (avg. speed 1339.7 entries/s)
+[2023-11-24 19:23:48,482] INFO: Train AvgLoss: 0.18327, AvgAcc: 0.93065
+[2023-11-24 19:23:48,482] INFO: Train class distribution: 
+    [(0, 92055), (1, 230057)]
+[2023-11-24 19:23:48,515] INFO: Epoch #6 validating
+[2023-11-24 19:24:35,876] INFO: Processed 161056 entries in total (avg. speed 3400.7 entries/s)
+[2023-11-24 19:24:35,876] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 19:24:35,914] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:24:35,978] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.       0.974216]
+ [0.       0.      ]]
+    - confusion_matrix: 
+[[0.92157333 0.07842667]
+ [0.06455898 0.93544102]]
+[2023-11-24 19:24:36,006] INFO: [1mEpoch #6: Current validation metric: 0.93149 (best: 0.93149)[0m
+--------------------------------------------------
+[2023-11-24 19:24:36,007] INFO: Epoch #7 training
+[2023-11-24 19:28:36,283] INFO: Processed 322112 entries in total (avg. speed 1340.6 entries/s)
+[2023-11-24 19:28:36,283] INFO: Train AvgLoss: 0.17964, AvgAcc: 0.93233
+[2023-11-24 19:28:36,283] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-24 19:28:36,314] INFO: Epoch #7 validating
+[2023-11-24 19:29:23,788] INFO: Processed 161056 entries in total (avg. speed 3392.5 entries/s)
+[2023-11-24 19:29:23,788] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 19:29:23,825] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:29:23,887] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.      0.97591]
+ [0.      0.     ]]
+    - confusion_matrix: 
+[[0.88945545 0.11054455]
+ [0.04786176 0.95213824]]
+[2023-11-24 19:29:23,915] INFO: [1mEpoch #7: Current validation metric: 0.93428 (best: 0.93428)[0m
+--------------------------------------------------
+[2023-11-24 19:29:23,915] INFO: Epoch #8 training
+[2023-11-24 19:33:25,189] INFO: Processed 322112 entries in total (avg. speed 1335.0 entries/s)
+[2023-11-24 19:33:25,189] INFO: Train AvgLoss: 0.17593, AvgAcc: 0.93368
+[2023-11-24 19:33:25,189] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 19:33:25,243] INFO: Epoch #8 validating
+[2023-11-24 19:34:12,764] INFO: Processed 161056 entries in total (avg. speed 3389.2 entries/s)
+[2023-11-24 19:34:12,765] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 19:34:12,801] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:34:12,863] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97201395]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.89481598 0.10518402]
+ [0.05980115 0.94019885]]
+[2023-11-24 19:34:12,863] INFO: [1mEpoch #8: Current validation metric: 0.92727 (best: 0.93428)[0m
+--------------------------------------------------
+[2023-11-24 19:34:12,863] INFO: Epoch #9 training
+[2023-11-24 19:38:13,781] INFO: Processed 322112 entries in total (avg. speed 1337.0 entries/s)
+[2023-11-24 19:38:13,782] INFO: Train AvgLoss: 0.17326, AvgAcc: 0.93470
+[2023-11-24 19:38:13,782] INFO: Train class distribution: 
+    [(0, 92056), (1, 230056)]
+[2023-11-24 19:38:13,824] INFO: Epoch #9 validating
+[2023-11-24 19:39:01,348] INFO: Processed 161056 entries in total (avg. speed 3389.0 entries/s)
+[2023-11-24 19:39:01,348] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 19:39:01,386] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:39:01,448] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97663665]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.93179639 0.06820361]
+ [0.06467299 0.93532701]]
+[2023-11-24 19:39:01,495] INFO: [1mEpoch #9: Current validation metric: 0.93432 (best: 0.93432)[0m
+--------------------------------------------------
+[2023-11-24 19:39:01,495] INFO: Epoch #10 training
+[2023-11-24 19:43:02,528] INFO: Processed 322112 entries in total (avg. speed 1336.4 entries/s)
+[2023-11-24 19:43:02,528] INFO: Train AvgLoss: 0.17055, AvgAcc: 0.93605
+[2023-11-24 19:43:02,528] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 19:43:02,559] INFO: Epoch #10 validating
+[2023-11-24 19:43:49,962] INFO: Processed 161056 entries in total (avg. speed 3397.7 entries/s)
+[2023-11-24 19:43:49,962] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 19:43:50,000] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:43:50,067] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97591203]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.91874224 0.08125776]
+ [0.0571962  0.9428038 ]]
+[2023-11-24 19:43:50,107] INFO: [1mEpoch #10: Current validation metric: 0.93595 (best: 0.93595)[0m
+--------------------------------------------------
+[2023-11-24 19:43:50,107] INFO: Epoch #11 training
+[2023-11-24 19:47:51,337] INFO: Processed 322112 entries in total (avg. speed 1335.3 entries/s)
+[2023-11-24 19:47:51,338] INFO: Train AvgLoss: 0.16842, AvgAcc: 0.93676
+[2023-11-24 19:47:51,338] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 19:47:51,370] INFO: Epoch #11 validating
+[2023-11-24 19:48:38,826] INFO: Processed 161056 entries in total (avg. speed 3393.8 entries/s)
+[2023-11-24 19:48:38,826] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 19:48:38,863] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:48:38,924] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9768173]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91946133 0.08053867]
+ [0.0571962  0.9428038 ]]
+[2023-11-24 19:48:38,973] INFO: [1mEpoch #11: Current validation metric: 0.93615 (best: 0.93615)[0m
+--------------------------------------------------
+[2023-11-24 19:48:38,973] INFO: Epoch #12 training
+[2023-11-24 19:52:39,800] INFO: Processed 322112 entries in total (avg. speed 1337.5 entries/s)
+[2023-11-24 19:52:39,800] INFO: Train AvgLoss: 0.16570, AvgAcc: 0.93815
+[2023-11-24 19:52:39,801] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 19:52:39,848] INFO: Epoch #12 validating
+[2023-11-24 19:53:27,437] INFO: Processed 161056 entries in total (avg. speed 3384.3 entries/s)
+[2023-11-24 19:53:27,437] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 19:53:27,477] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:53:27,541] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97708815]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.90320753 0.09679247]
+ [0.04979855 0.95020145]]
+[2023-11-24 19:53:27,586] INFO: [1mEpoch #12: Current validation metric: 0.93681 (best: 0.93681)[0m
+--------------------------------------------------
+[2023-11-24 19:53:27,586] INFO: Epoch #13 training
+[2023-11-24 19:57:32,787] INFO: Processed 322112 entries in total (avg. speed 1313.7 entries/s)
+[2023-11-24 19:57:32,788] INFO: Train AvgLoss: 0.16398, AvgAcc: 0.93929
+[2023-11-24 19:57:32,801] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 19:57:33,101] INFO: Epoch #13 validating
+[2023-11-24 19:58:22,135] INFO: Processed 161056 entries in total (avg. speed 3284.6 entries/s)
+[2023-11-24 19:58:22,135] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 19:58:22,231] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 19:58:22,366] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9771428]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91290041 0.08709959]
+ [0.05303649 0.94696351]]
+[2023-11-24 19:58:22,435] INFO: [1mEpoch #13: Current validation metric: 0.93726 (best: 0.93726)[0m
+--------------------------------------------------
+[2023-11-24 19:58:22,435] INFO: Epoch #14 training
+[2023-11-24 20:02:23,161] INFO: Processed 322112 entries in total (avg. speed 1338.1 entries/s)
+[2023-11-24 20:02:23,161] INFO: Train AvgLoss: 0.16211, AvgAcc: 0.94003
+[2023-11-24 20:02:23,161] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 20:02:23,211] INFO: Epoch #14 validating
+[2023-11-24 20:03:10,646] INFO: Processed 161056 entries in total (avg. speed 3395.3 entries/s)
+[2023-11-24 20:03:10,647] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 20:03:10,750] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:03:10,846] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9773014]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.89847683 0.10152317]
+ [0.04718447 0.95281553]]
+[2023-11-24 20:03:10,897] INFO: [1mEpoch #14: Current validation metric: 0.93733 (best: 0.93733)[0m
+--------------------------------------------------
+[2023-11-24 20:03:10,898] INFO: Epoch #15 training
+[2023-11-24 20:07:11,710] INFO: Processed 322112 entries in total (avg. speed 1337.6 entries/s)
+[2023-11-24 20:07:11,710] INFO: Train AvgLoss: 0.15992, AvgAcc: 0.94082
+[2023-11-24 20:07:11,710] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-24 20:07:11,754] INFO: Epoch #15 validating
+[2023-11-24 20:07:59,421] INFO: Processed 161056 entries in total (avg. speed 3378.8 entries/s)
+[2023-11-24 20:07:59,422] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 20:07:59,459] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:07:59,527] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9779845]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.93146954 0.06853046]
+ [0.05936751 0.94063249]]
+[2023-11-24 20:07:59,558] INFO: [1mEpoch #15: Current validation metric: 0.93802 (best: 0.93802)[0m
+--------------------------------------------------
+[2023-11-24 20:07:59,559] INFO: Epoch #16 training
+[2023-11-24 20:12:00,842] INFO: Processed 322112 entries in total (avg. speed 1335.0 entries/s)
+[2023-11-24 20:12:00,842] INFO: Train AvgLoss: 0.15887, AvgAcc: 0.94145
+[2023-11-24 20:12:00,842] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 20:12:00,890] INFO: Epoch #16 validating
+[2023-11-24 20:12:48,531] INFO: Processed 161056 entries in total (avg. speed 3380.7 entries/s)
+[2023-11-24 20:12:48,532] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 20:12:48,569] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:12:48,637] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97784084]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.9028371  0.0971629 ]
+ [0.04806189 0.95193811]]
+[2023-11-24 20:12:48,637] INFO: [1mEpoch #16: Current validation metric: 0.93795 (best: 0.93802)[0m
+--------------------------------------------------
+[2023-11-24 20:12:48,637] INFO: Epoch #17 training
+[2023-11-24 20:16:50,315] INFO: Processed 322112 entries in total (avg. speed 1332.8 entries/s)
+[2023-11-24 20:16:50,315] INFO: Train AvgLoss: 0.15699, AvgAcc: 0.94173
+[2023-11-24 20:16:50,315] INFO: Train class distribution: 
+    [(0, 92056), (1, 230056)]
+[2023-11-24 20:16:50,359] INFO: Epoch #17 validating
+[2023-11-24 20:17:37,852] INFO: Processed 161056 entries in total (avg. speed 3391.2 entries/s)
+[2023-11-24 20:17:37,852] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 20:17:37,889] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:17:37,954] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9596505]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.94247113 0.05752887]
+ [0.11935814 0.88064186]]
+[2023-11-24 20:17:37,954] INFO: [1mEpoch #17: Current validation metric: 0.89826 (best: 0.93802)[0m
+--------------------------------------------------
+[2023-11-24 20:17:37,954] INFO: Epoch #18 training
+[2023-11-24 20:21:39,486] INFO: Processed 322112 entries in total (avg. speed 1333.6 entries/s)
+[2023-11-24 20:21:39,486] INFO: Train AvgLoss: 0.15531, AvgAcc: 0.94271
+[2023-11-24 20:21:39,486] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 20:21:39,537] INFO: Epoch #18 validating
+[2023-11-24 20:22:27,139] INFO: Processed 161056 entries in total (avg. speed 3383.4 entries/s)
+[2023-11-24 20:22:27,140] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 20:22:27,180] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:22:27,246] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9690294]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.94373747 0.05626253]
+ [0.09533361 0.90466639]]
+[2023-11-24 20:22:27,246] INFO: [1mEpoch #18: Current validation metric: 0.91580 (best: 0.93802)[0m
+--------------------------------------------------
+[2023-11-24 20:22:27,246] INFO: Epoch #19 training
+[2023-11-24 20:26:28,117] INFO: Processed 322112 entries in total (avg. speed 1337.3 entries/s)
+[2023-11-24 20:26:28,117] INFO: Train AvgLoss: 0.15392, AvgAcc: 0.94323
+[2023-11-24 20:26:28,117] INFO: Train class distribution: 
+    [(0, 92056), (1, 230056)]
+[2023-11-24 20:26:28,169] INFO: Epoch #19 validating
+[2023-11-24 20:27:15,845] INFO: Processed 161056 entries in total (avg. speed 3378.1 entries/s)
+[2023-11-24 20:27:15,846] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 20:27:15,884] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:27:15,945] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96310395]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.93519568 0.06480432]
+ [0.1065003  0.8934997 ]]
+[2023-11-24 20:27:15,946] INFO: [1mEpoch #19: Current validation metric: 0.90538 (best: 0.93802)[0m
+--------------------------------------------------
+[2023-11-24 20:27:15,946] INFO: Epoch #20 training
+[2023-11-24 20:31:16,647] INFO: Processed 322112 entries in total (avg. speed 1338.2 entries/s)
+[2023-11-24 20:31:16,647] INFO: Train AvgLoss: 0.15252, AvgAcc: 0.94374
+[2023-11-24 20:31:16,647] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 20:31:16,701] INFO: Epoch #20 validating
+[2023-11-24 20:32:04,345] INFO: Processed 161056 entries in total (avg. speed 3380.5 entries/s)
+[2023-11-24 20:32:04,345] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 20:32:04,385] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:32:04,449] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9787273]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91159679 0.08840321]
+ [0.04850474 0.95149526]]
+[2023-11-24 20:32:04,478] INFO: [1mEpoch #20: Current validation metric: 0.94013 (best: 0.94013)[0m
+--------------------------------------------------
+[2023-11-24 20:32:04,478] INFO: Epoch #21 training
+[2023-11-24 20:36:05,407] INFO: Processed 322112 entries in total (avg. speed 1337.0 entries/s)
+[2023-11-24 20:36:05,408] INFO: Train AvgLoss: 0.15135, AvgAcc: 0.94417
+[2023-11-24 20:36:05,409] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 20:36:05,463] INFO: Epoch #21 validating
+[2023-11-24 20:36:53,143] INFO: Processed 161056 entries in total (avg. speed 3378.0 entries/s)
+[2023-11-24 20:36:53,143] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 20:36:53,185] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:36:53,250] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9789909]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.94160075 0.05839925]
+ [0.06198932 0.93801068]]
+[2023-11-24 20:36:53,250] INFO: [1mEpoch #21: Current validation metric: 0.93903 (best: 0.94013)[0m
+--------------------------------------------------
+[2023-11-24 20:36:53,250] INFO: Epoch #22 training
+[2023-11-24 20:40:54,404] INFO: Processed 322112 entries in total (avg. speed 1335.7 entries/s)
+[2023-11-24 20:40:54,404] INFO: Train AvgLoss: 0.14922, AvgAcc: 0.94505
+[2023-11-24 20:40:54,404] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 20:40:54,438] INFO: Epoch #22 validating
+[2023-11-24 20:41:42,016] INFO: Processed 161056 entries in total (avg. speed 3385.1 entries/s)
+[2023-11-24 20:41:42,016] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 20:41:42,057] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:41:42,120] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97880775]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.91521029 0.08478971]
+ [0.04846048 0.95153952]]
+[2023-11-24 20:41:42,152] INFO: [1mEpoch #22: Current validation metric: 0.94119 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 20:41:42,152] INFO: Epoch #23 training
+[2023-11-24 20:45:43,500] INFO: Processed 322112 entries in total (avg. speed 1334.6 entries/s)
+[2023-11-24 20:45:43,500] INFO: Train AvgLoss: 0.14752, AvgAcc: 0.94602
+[2023-11-24 20:45:43,500] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 20:45:43,545] INFO: Epoch #23 validating
+[2023-11-24 20:46:31,181] INFO: Processed 161056 entries in total (avg. speed 3381.0 entries/s)
+[2023-11-24 20:46:31,181] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 20:46:31,228] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:46:31,293] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9786577]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91362141 0.08637859]
+ [0.04923371 0.95076629]]
+[2023-11-24 20:46:31,293] INFO: [1mEpoch #23: Current validation metric: 0.94018 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 20:46:31,293] INFO: Epoch #24 training
+[2023-11-24 20:50:32,628] INFO: Processed 322112 entries in total (avg. speed 1334.7 entries/s)
+[2023-11-24 20:50:32,628] INFO: Train AvgLoss: 0.14679, AvgAcc: 0.94627
+[2023-11-24 20:50:32,629] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 20:50:32,669] INFO: Epoch #24 validating
+[2023-11-24 20:51:20,409] INFO: Processed 161056 entries in total (avg. speed 3373.6 entries/s)
+[2023-11-24 20:51:20,410] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 20:51:20,455] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:51:20,518] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9785261]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.9308579  0.0691421 ]
+ [0.05710936 0.94289064]]
+[2023-11-24 20:51:20,518] INFO: [1mEpoch #24: Current validation metric: 0.93946 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 20:51:20,518] INFO: Epoch #25 training
+[2023-11-24 20:55:21,944] INFO: Processed 322112 entries in total (avg. speed 1334.2 entries/s)
+[2023-11-24 20:55:21,944] INFO: Train AvgLoss: 0.14546, AvgAcc: 0.94686
+[2023-11-24 20:55:21,944] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-24 20:55:21,978] INFO: Epoch #25 validating
+[2023-11-24 20:56:09,627] INFO: Processed 161056 entries in total (avg. speed 3380.1 entries/s)
+[2023-11-24 20:56:09,628] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-24 20:56:09,669] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 20:56:09,731] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9786848]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.93255464 0.06744536]
+ [0.05793326 0.94206674]]
+[2023-11-24 20:56:09,732] INFO: [1mEpoch #25: Current validation metric: 0.93936 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 20:56:09,732] INFO: Epoch #26 training
+[2023-11-24 21:00:11,093] INFO: Processed 322112 entries in total (avg. speed 1334.6 entries/s)
+[2023-11-24 21:00:11,093] INFO: Train AvgLoss: 0.14400, AvgAcc: 0.94703
+[2023-11-24 21:00:11,093] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 21:00:11,126] INFO: Epoch #26 validating
+[2023-11-24 21:00:59,011] INFO: Processed 161056 entries in total (avg. speed 3363.5 entries/s)
+[2023-11-24 21:00:59,011] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 21:00:59,052] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:00:59,117] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97826374]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.90592927 0.09407073]
+ [0.04707159 0.95292841]]
+[2023-11-24 21:00:59,117] INFO: [1mEpoch #26: Current validation metric: 0.93954 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:00:59,117] INFO: Epoch #27 training
+[2023-11-24 21:05:04,067] INFO: Processed 322112 entries in total (avg. speed 1315.0 entries/s)
+[2023-11-24 21:05:04,068] INFO: Train AvgLoss: 0.14256, AvgAcc: 0.94761
+[2023-11-24 21:05:04,082] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 21:05:04,309] INFO: Epoch #27 validating
+[2023-11-24 21:05:52,592] INFO: Processed 161056 entries in total (avg. speed 3335.7 entries/s)
+[2023-11-24 21:05:52,592] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 21:05:52,704] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:05:52,849] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97875524]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.89346495 0.10653505]
+ [0.04273    0.95727   ]]
+[2023-11-24 21:05:52,849] INFO: [1mEpoch #27: Current validation metric: 0.93909 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:05:52,849] INFO: Epoch #28 training
+[2023-11-24 21:09:54,004] INFO: Processed 322112 entries in total (avg. speed 1335.7 entries/s)
+[2023-11-24 21:09:54,005] INFO: Train AvgLoss: 0.14154, AvgAcc: 0.94781
+[2023-11-24 21:09:54,005] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-24 21:09:54,087] INFO: Epoch #28 validating
+[2023-11-24 21:10:41,842] INFO: Processed 161056 entries in total (avg. speed 3372.6 entries/s)
+[2023-11-24 21:10:41,842] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-24 21:10:41,955] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:10:42,054] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9784078]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91261522 0.08738478]
+ [0.04906788 0.95093212]]
+[2023-11-24 21:10:42,054] INFO: [1mEpoch #28: Current validation metric: 0.94001 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:10:42,054] INFO: Epoch #29 training
+[2023-11-24 21:14:43,585] INFO: Processed 322112 entries in total (avg. speed 1333.6 entries/s)
+[2023-11-24 21:14:43,585] INFO: Train AvgLoss: 0.14043, AvgAcc: 0.94862
+[2023-11-24 21:14:43,585] INFO: Train class distribution: 
+    [(0, 92055), (1, 230057)]
+[2023-11-24 21:14:43,641] INFO: Epoch #29 validating
+[2023-11-24 21:15:31,365] INFO: Processed 161056 entries in total (avg. speed 3374.8 entries/s)
+[2023-11-24 21:15:31,365] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 21:15:31,403] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:15:31,467] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9782641]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91207426 0.08792574]
+ [0.04916424 0.95083576]]
+[2023-11-24 21:15:31,467] INFO: [1mEpoch #29: Current validation metric: 0.93979 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:15:31,467] INFO: Epoch #30 training
+[2023-11-24 21:19:32,885] INFO: Processed 322112 entries in total (avg. speed 1334.3 entries/s)
+[2023-11-24 21:19:32,885] INFO: Train AvgLoss: 0.13881, AvgAcc: 0.94899
+[2023-11-24 21:19:32,886] INFO: Train class distribution: 
+    [(0, 92061), (1, 230051)]
+[2023-11-24 21:19:32,930] INFO: Epoch #30 validating
+[2023-11-24 21:20:20,825] INFO: Processed 161056 entries in total (avg. speed 3362.7 entries/s)
+[2023-11-24 21:20:20,825] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 21:20:20,864] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:20:20,932] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.       0.978827]
+ [0.       0.      ]]
+    - confusion_matrix: 
+[[0.91407901 0.08592099]
+ [0.04866062 0.95133938]]
+[2023-11-24 21:20:20,932] INFO: [1mEpoch #30: Current validation metric: 0.94072 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:20:20,932] INFO: Epoch #31 training
+[2023-11-24 21:24:23,464] INFO: Processed 322112 entries in total (avg. speed 1328.1 entries/s)
+[2023-11-24 21:24:23,464] INFO: Train AvgLoss: 0.13771, AvgAcc: 0.94937
+[2023-11-24 21:24:23,464] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 21:24:23,498] INFO: Epoch #31 validating
+[2023-11-24 21:25:11,236] INFO: Processed 161056 entries in total (avg. speed 3373.7 entries/s)
+[2023-11-24 21:25:11,237] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 21:25:11,274] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:25:11,340] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97808605]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.93758989 0.06241011]
+ [0.06191932 0.93808068]]
+[2023-11-24 21:25:11,341] INFO: [1mEpoch #31: Current validation metric: 0.93794 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:25:11,341] INFO: Epoch #32 training
+[2023-11-24 21:29:13,078] INFO: Processed 322112 entries in total (avg. speed 1332.5 entries/s)
+[2023-11-24 21:29:13,078] INFO: Train AvgLoss: 0.13583, AvgAcc: 0.95034
+[2023-11-24 21:29:13,078] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 21:29:13,123] INFO: Epoch #32 validating
+[2023-11-24 21:30:00,917] INFO: Processed 161056 entries in total (avg. speed 3369.9 entries/s)
+[2023-11-24 21:30:00,917] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 21:30:00,957] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:30:01,021] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97828215]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.92891698 0.07108302]
+ [0.0551378  0.9448622 ]]
+[2023-11-24 21:30:01,021] INFO: [1mEpoch #32: Current validation metric: 0.94032 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:30:01,021] INFO: Epoch #33 training
+[2023-11-24 21:34:02,340] INFO: Processed 322112 entries in total (avg. speed 1334.8 entries/s)
+[2023-11-24 21:34:02,340] INFO: Train AvgLoss: 0.13490, AvgAcc: 0.95046
+[2023-11-24 21:34:02,340] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-24 21:34:02,374] INFO: Epoch #33 validating
+[2023-11-24 21:34:50,029] INFO: Processed 161056 entries in total (avg. speed 3379.6 entries/s)
+[2023-11-24 21:34:50,030] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 21:34:50,067] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:34:50,133] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9783636]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91477632 0.08522368]
+ [0.04955499 0.95044501]]
+[2023-11-24 21:34:50,133] INFO: [1mEpoch #33: Current validation metric: 0.94028 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:34:50,133] INFO: Epoch #34 training
+[2023-11-24 21:38:51,651] INFO: Processed 322112 entries in total (avg. speed 1333.7 entries/s)
+[2023-11-24 21:38:51,651] INFO: Train AvgLoss: 0.13367, AvgAcc: 0.95073
+[2023-11-24 21:38:51,651] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 21:38:51,696] INFO: Epoch #34 validating
+[2023-11-24 21:39:39,591] INFO: Processed 161056 entries in total (avg. speed 3362.7 entries/s)
+[2023-11-24 21:39:39,592] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 21:39:39,631] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:39:39,696] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97823596]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.9207252  0.0792748 ]
+ [0.05147397 0.94852603]]
+[2023-11-24 21:39:39,696] INFO: [1mEpoch #34: Current validation metric: 0.94060 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:39:39,696] INFO: Epoch #35 training
+[2023-11-24 21:43:41,047] INFO: Processed 322112 entries in total (avg. speed 1334.6 entries/s)
+[2023-11-24 21:43:41,048] INFO: Train AvgLoss: 0.13205, AvgAcc: 0.95154
+[2023-11-24 21:43:41,048] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 21:43:41,082] INFO: Epoch #35 validating
+[2023-11-24 21:44:29,005] INFO: Processed 161056 entries in total (avg. speed 3360.7 entries/s)
+[2023-11-24 21:44:29,006] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-24 21:44:29,046] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:44:29,108] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9630928]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.8950511  0.1049489 ]
+ [0.08186373 0.91813627]]
+[2023-11-24 21:44:29,109] INFO: [1mEpoch #35: Current validation metric: 0.91156 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:44:29,109] INFO: Epoch #36 training
+[2023-11-24 21:48:31,054] INFO: Processed 322112 entries in total (avg. speed 1331.3 entries/s)
+[2023-11-24 21:48:31,054] INFO: Train AvgLoss: 0.13058, AvgAcc: 0.95227
+[2023-11-24 21:48:31,055] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 21:48:31,100] INFO: Epoch #36 validating
+[2023-11-24 21:49:18,795] INFO: Processed 161056 entries in total (avg. speed 3376.8 entries/s)
+[2023-11-24 21:49:18,796] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-24 21:49:18,838] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:49:18,899] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9775895]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91058859 0.08941141]
+ [0.0493631  0.9506369 ]]
+[2023-11-24 21:49:18,899] INFO: [1mEpoch #36: Current validation metric: 0.93923 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:49:18,900] INFO: Epoch #37 training
+[2023-11-24 21:53:20,339] INFO: Processed 322112 entries in total (avg. speed 1334.1 entries/s)
+[2023-11-24 21:53:20,340] INFO: Train AvgLoss: 0.12890, AvgAcc: 0.95282
+[2023-11-24 21:53:20,340] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 21:53:20,390] INFO: Epoch #37 validating
+[2023-11-24 21:54:07,935] INFO: Processed 161056 entries in total (avg. speed 3387.5 entries/s)
+[2023-11-24 21:54:07,936] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 21:54:07,975] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:54:08,038] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.       0.978016]
+ [0.       0.      ]]
+    - confusion_matrix: 
+[[0.93423404 0.06576596]
+ [0.05928833 0.94071167]]
+[2023-11-24 21:54:08,038] INFO: [1mEpoch #37: Current validation metric: 0.93887 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:54:08,039] INFO: Epoch #38 training
+[2023-11-24 21:58:09,702] INFO: Processed 322112 entries in total (avg. speed 1332.9 entries/s)
+[2023-11-24 21:58:09,702] INFO: Train AvgLoss: 0.12815, AvgAcc: 0.95287
+[2023-11-24 21:58:09,702] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 21:58:09,735] INFO: Epoch #38 validating
+[2023-11-24 21:58:57,561] INFO: Processed 161056 entries in total (avg. speed 3367.6 entries/s)
+[2023-11-24 21:58:57,561] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 21:58:57,610] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 21:58:57,673] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.       0.975299]
+ [0.       0.      ]]
+    - confusion_matrix: 
+[[0.8884555  0.1115445 ]
+ [0.04728908 0.95271092]]
+[2023-11-24 21:58:57,673] INFO: [1mEpoch #38: Current validation metric: 0.93440 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 21:58:57,673] INFO: Epoch #39 training
+[2023-11-24 22:02:59,430] INFO: Processed 322112 entries in total (avg. speed 1332.4 entries/s)
+[2023-11-24 22:02:59,430] INFO: Train AvgLoss: 0.12705, AvgAcc: 0.95308
+[2023-11-24 22:02:59,430] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 22:02:59,462] INFO: Epoch #39 validating
+[2023-11-24 22:03:47,213] INFO: Processed 161056 entries in total (avg. speed 3372.9 entries/s)
+[2023-11-24 22:03:47,213] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 22:03:47,253] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:03:47,319] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97779584]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.93478024 0.06521976]
+ [0.05925411 0.94074589]]
+[2023-11-24 22:03:47,319] INFO: [1mEpoch #39: Current validation metric: 0.93905 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:03:47,319] INFO: Epoch #40 training
+[2023-11-24 22:07:50,755] INFO: Processed 322112 entries in total (avg. speed 1323.2 entries/s)
+[2023-11-24 22:07:50,755] INFO: Train AvgLoss: 0.12537, AvgAcc: 0.95398
+[2023-11-24 22:07:50,755] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 22:07:50,827] INFO: Epoch #40 validating
+[2023-11-24 22:08:38,659] INFO: Processed 161056 entries in total (avg. speed 3367.2 entries/s)
+[2023-11-24 22:08:38,659] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 22:08:38,695] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:08:38,763] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9777166]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.90998039 0.09001961]
+ [0.04772242 0.95227758]]
+[2023-11-24 22:08:38,764] INFO: [1mEpoch #40: Current validation metric: 0.94023 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:08:38,764] INFO: Epoch #41 training
+[2023-11-24 22:12:42,093] INFO: Processed 322112 entries in total (avg. speed 1323.8 entries/s)
+[2023-11-24 22:12:42,095] INFO: Train AvgLoss: 0.12433, AvgAcc: 0.95435
+[2023-11-24 22:12:42,108] INFO: Train class distribution: 
+    [(0, 92056), (1, 230056)]
+[2023-11-24 22:12:42,343] INFO: Epoch #41 validating
+[2023-11-24 22:13:30,618] INFO: Processed 161056 entries in total (avg. speed 3336.3 entries/s)
+[2023-11-24 22:13:30,618] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 22:13:30,668] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:13:30,772] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9773237]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91211784 0.08788216]
+ [0.04923371 0.95076629]]
+[2023-11-24 22:13:30,772] INFO: [1mEpoch #41: Current validation metric: 0.93975 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:13:30,772] INFO: Epoch #42 training
+[2023-11-24 22:17:31,961] INFO: Processed 322112 entries in total (avg. speed 1335.5 entries/s)
+[2023-11-24 22:17:31,961] INFO: Train AvgLoss: 0.12345, AvgAcc: 0.95443
+[2023-11-24 22:17:31,961] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 22:17:32,015] INFO: Epoch #42 validating
+[2023-11-24 22:18:19,731] INFO: Processed 161056 entries in total (avg. speed 3375.4 entries/s)
+[2023-11-24 22:18:19,731] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 22:18:19,831] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:18:19,928] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9761145]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91294779 0.08705221]
+ [0.0518478  0.9481522 ]]
+[2023-11-24 22:18:19,928] INFO: [1mEpoch #42: Current validation metric: 0.93812 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:18:19,929] INFO: Epoch #43 training
+[2023-11-24 22:22:22,424] INFO: Processed 322112 entries in total (avg. speed 1328.3 entries/s)
+[2023-11-24 22:22:22,425] INFO: Train AvgLoss: 0.12090, AvgAcc: 0.95522
+[2023-11-24 22:22:22,440] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 22:22:22,501] INFO: Epoch #43 validating
+[2023-11-24 22:23:10,000] INFO: Processed 161056 entries in total (avg. speed 3390.7 entries/s)
+[2023-11-24 22:23:10,001] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 22:23:10,105] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:23:10,268] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97646236]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.88658154 0.11341846]
+ [0.04299955 0.95700045]]
+[2023-11-24 22:23:10,269] INFO: [1mEpoch #43: Current validation metric: 0.93693 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:23:10,269] INFO: Epoch #44 training
+[2023-11-24 22:27:11,440] INFO: Processed 322112 entries in total (avg. speed 1335.6 entries/s)
+[2023-11-24 22:27:11,440] INFO: Train AvgLoss: 0.12017, AvgAcc: 0.95574
+[2023-11-24 22:27:11,441] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-24 22:27:11,474] INFO: Epoch #44 validating
+[2023-11-24 22:27:59,011] INFO: Processed 161056 entries in total (avg. speed 3388.1 entries/s)
+[2023-11-24 22:27:59,011] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-24 22:27:59,050] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:27:59,118] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.       0.976355]
+ [0.       0.      ]]
+    - confusion_matrix: 
+[[0.8995184  0.1004816 ]
+ [0.04725312 0.95274688]]
+[2023-11-24 22:27:59,118] INFO: [1mEpoch #44: Current validation metric: 0.93758 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:27:59,118] INFO: Epoch #45 training
+[2023-11-24 22:32:01,223] INFO: Processed 322112 entries in total (avg. speed 1330.5 entries/s)
+[2023-11-24 22:32:01,224] INFO: Train AvgLoss: 0.11905, AvgAcc: 0.95549
+[2023-11-24 22:32:01,224] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 22:32:01,257] INFO: Epoch #45 validating
+[2023-11-24 22:32:49,165] INFO: Processed 161056 entries in total (avg. speed 3361.8 entries/s)
+[2023-11-24 22:32:49,165] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 22:32:49,205] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:32:49,271] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9583888]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.85844719 0.14155281]
+ [0.07097643 0.92902357]]
+[2023-11-24 22:32:49,271] INFO: [1mEpoch #45: Current validation metric: 0.90891 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:32:49,271] INFO: Epoch #46 training
+[2023-11-24 22:36:50,554] INFO: Processed 322112 entries in total (avg. speed 1335.0 entries/s)
+[2023-11-24 22:36:50,554] INFO: Train AvgLoss: 0.11739, AvgAcc: 0.95686
+[2023-11-24 22:36:50,554] INFO: Train class distribution: 
+    [(0, 92056), (1, 230056)]
+[2023-11-24 22:36:50,596] INFO: Epoch #46 validating
+[2023-11-24 22:37:38,273] INFO: Processed 161056 entries in total (avg. speed 3378.1 entries/s)
+[2023-11-24 22:37:38,273] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 22:37:38,320] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:37:38,382] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9578111]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88507551 0.11492449]
+ [0.08091868 0.91908132]]
+[2023-11-24 22:37:38,382] INFO: [1mEpoch #46: Current validation metric: 0.90939 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:37:38,382] INFO: Epoch #47 training
+[2023-11-24 22:41:39,657] INFO: Processed 322112 entries in total (avg. speed 1335.0 entries/s)
+[2023-11-24 22:41:39,657] INFO: Train AvgLoss: 0.11564, AvgAcc: 0.95737
+[2023-11-24 22:41:39,658] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 22:41:39,732] INFO: Epoch #47 validating
+[2023-11-24 22:42:27,473] INFO: Processed 161056 entries in total (avg. speed 3373.6 entries/s)
+[2023-11-24 22:42:27,473] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 22:42:27,512] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:42:27,572] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9577808]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.83118694 0.16881306]
+ [0.06390831 0.93609169]]
+[2023-11-24 22:42:27,572] INFO: [1mEpoch #47: Current validation metric: 0.90620 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:42:27,572] INFO: Epoch #48 training
+[2023-11-24 22:46:29,233] INFO: Processed 322112 entries in total (avg. speed 1332.9 entries/s)
+[2023-11-24 22:46:29,233] INFO: Train AvgLoss: 0.11400, AvgAcc: 0.95761
+[2023-11-24 22:46:29,233] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 22:46:29,267] INFO: Epoch #48 validating
+[2023-11-24 22:47:17,181] INFO: Processed 161056 entries in total (avg. speed 3361.4 entries/s)
+[2023-11-24 22:47:17,181] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-24 22:47:17,221] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:47:17,285] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.       0.975402]
+ [0.       0.      ]]
+    - confusion_matrix: 
+[[0.91244089 0.08755911]
+ [0.05377408 0.94622592]]
+[2023-11-24 22:47:17,285] INFO: [1mEpoch #48: Current validation metric: 0.93660 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:47:17,285] INFO: Epoch #49 training
+[2023-11-24 22:51:18,811] INFO: Processed 322112 entries in total (avg. speed 1333.7 entries/s)
+[2023-11-24 22:51:18,812] INFO: Train AvgLoss: 0.11317, AvgAcc: 0.95804
+[2023-11-24 22:51:18,812] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 22:51:18,854] INFO: Epoch #49 validating
+[2023-11-24 22:52:06,582] INFO: Processed 161056 entries in total (avg. speed 3374.5 entries/s)
+[2023-11-24 22:52:06,582] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 22:52:06,620] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:52:06,682] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9760974]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88912859 0.11087141]
+ [0.04412799 0.95587201]]
+[2023-11-24 22:52:06,682] INFO: [1mEpoch #49: Current validation metric: 0.93685 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:52:06,682] INFO: Epoch #50 training
+[2023-11-24 22:56:08,384] INFO: Processed 322112 entries in total (avg. speed 1332.7 entries/s)
+[2023-11-24 22:56:08,384] INFO: Train AvgLoss: 0.11223, AvgAcc: 0.95825
+[2023-11-24 22:56:08,384] INFO: Train class distribution: 
+    [(0, 92061), (1, 230051)]
+[2023-11-24 22:56:08,417] INFO: Epoch #50 validating
+[2023-11-24 22:56:55,865] INFO: Processed 161056 entries in total (avg. speed 3394.4 entries/s)
+[2023-11-24 22:56:55,866] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 22:56:55,907] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 22:56:55,972] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9767659]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.90897799 0.09102201]
+ [0.04763559 0.95236441]]
+[2023-11-24 22:56:55,972] INFO: [1mEpoch #50: Current validation metric: 0.94000 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 22:56:55,972] INFO: Epoch #51 training
+[2023-11-24 23:00:57,307] INFO: Processed 322112 entries in total (avg. speed 1334.7 entries/s)
+[2023-11-24 23:00:57,307] INFO: Train AvgLoss: 0.11045, AvgAcc: 0.95870
+[2023-11-24 23:00:57,307] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-24 23:00:57,355] INFO: Epoch #51 validating
+[2023-11-24 23:01:44,895] INFO: Processed 161056 entries in total (avg. speed 3387.8 entries/s)
+[2023-11-24 23:01:44,896] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-24 23:01:44,936] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:01:45,000] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97572905]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.90653534 0.09346466]
+ [0.04969305 0.95030695]]
+[2023-11-24 23:01:45,000] INFO: [1mEpoch #51: Current validation metric: 0.93784 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:01:45,000] INFO: Epoch #52 training
+[2023-11-24 23:05:46,666] INFO: Processed 322112 entries in total (avg. speed 1332.9 entries/s)
+[2023-11-24 23:05:46,666] INFO: Train AvgLoss: 0.10902, AvgAcc: 0.95971
+[2023-11-24 23:05:46,666] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 23:05:46,751] INFO: Epoch #52 validating
+[2023-11-24 23:06:34,469] INFO: Processed 161056 entries in total (avg. speed 3375.2 entries/s)
+[2023-11-24 23:06:34,469] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-24 23:06:34,511] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:06:34,571] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97582865]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.91342718 0.08657282]
+ [0.05220381 0.94779619]]
+[2023-11-24 23:06:34,571] INFO: [1mEpoch #52: Current validation metric: 0.93800 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:06:34,571] INFO: Epoch #53 training
+[2023-11-24 23:10:35,821] INFO: Processed 322112 entries in total (avg. speed 1335.2 entries/s)
+[2023-11-24 23:10:35,821] INFO: Train AvgLoss: 0.10834, AvgAcc: 0.95959
+[2023-11-24 23:10:35,821] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 23:10:35,868] INFO: Epoch #53 validating
+[2023-11-24 23:11:24,102] INFO: Processed 161056 entries in total (avg. speed 3339.0 entries/s)
+[2023-11-24 23:11:24,103] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 23:11:24,139] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:11:24,201] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9735349]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.92249025 0.07750975]
+ [0.06158121 0.93841879]]
+[2023-11-24 23:11:24,201] INFO: [1mEpoch #53: Current validation metric: 0.93388 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:11:24,201] INFO: Epoch #54 training
+[2023-11-24 23:15:26,382] INFO: Processed 322112 entries in total (avg. speed 1330.1 entries/s)
+[2023-11-24 23:15:26,382] INFO: Train AvgLoss: 0.10629, AvgAcc: 0.96032
+[2023-11-24 23:15:26,382] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 23:15:26,504] INFO: Epoch #54 validating
+[2023-11-24 23:16:14,218] INFO: Processed 161056 entries in total (avg. speed 3375.5 entries/s)
+[2023-11-24 23:16:14,218] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 23:16:14,251] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:16:14,311] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9519779]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.85092613 0.14907387]
+ [0.08141292 0.91858708]]
+[2023-11-24 23:16:14,312] INFO: [1mEpoch #54: Current validation metric: 0.89931 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:16:14,312] INFO: Epoch #55 training
+[2023-11-24 23:20:17,088] INFO: Processed 322112 entries in total (avg. speed 1326.8 entries/s)
+[2023-11-24 23:20:17,090] INFO: Train AvgLoss: 0.10525, AvgAcc: 0.96045
+[2023-11-24 23:20:17,099] INFO: Train class distribution: 
+    [(0, 92056), (1, 230056)]
+[2023-11-24 23:20:17,220] INFO: Epoch #55 validating
+[2023-11-24 23:21:05,273] INFO: Processed 161056 entries in total (avg. speed 3351.7 entries/s)
+[2023-11-24 23:21:05,273] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 23:21:05,307] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:21:05,395] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97593427]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.90061232 0.09938768]
+ [0.04780966 0.95219034]]
+[2023-11-24 23:21:05,395] INFO: [1mEpoch #55: Current validation metric: 0.93749 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:21:05,395] INFO: Epoch #56 training
+[2023-11-24 23:25:06,593] INFO: Processed 322112 entries in total (avg. speed 1335.5 entries/s)
+[2023-11-24 23:25:06,594] INFO: Train AvgLoss: 0.10355, AvgAcc: 0.96123
+[2023-11-24 23:25:06,594] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 23:25:06,642] INFO: Epoch #56 validating
+[2023-11-24 23:25:54,326] INFO: Processed 161056 entries in total (avg. speed 3377.6 entries/s)
+[2023-11-24 23:25:54,326] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-24 23:25:54,418] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:25:54,512] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9748029]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.9108283  0.0891717 ]
+ [0.05308812 0.94691188]]
+[2023-11-24 23:25:54,512] INFO: [1mEpoch #56: Current validation metric: 0.93663 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:25:54,512] INFO: Epoch #57 training
+[2023-11-24 23:29:55,868] INFO: Processed 322112 entries in total (avg. speed 1334.6 entries/s)
+[2023-11-24 23:29:55,869] INFO: Train AvgLoss: 0.10241, AvgAcc: 0.96189
+[2023-11-24 23:29:55,869] INFO: Train class distribution: 
+    [(0, 92056), (1, 230056)]
+[2023-11-24 23:29:55,940] INFO: Epoch #57 validating
+[2023-11-24 23:30:43,543] INFO: Processed 161056 entries in total (avg. speed 3383.3 entries/s)
+[2023-11-24 23:30:43,544] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 23:30:43,589] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:30:43,654] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9758266]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91775986 0.08224014]
+ [0.05273258 0.94726742]]
+[2023-11-24 23:30:43,654] INFO: [1mEpoch #57: Current validation metric: 0.93886 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:30:43,654] INFO: Epoch #58 training
+[2023-11-24 23:34:44,829] INFO: Processed 322112 entries in total (avg. speed 1335.6 entries/s)
+[2023-11-24 23:34:44,830] INFO: Train AvgLoss: 0.10106, AvgAcc: 0.96232
+[2023-11-24 23:34:44,830] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 23:34:44,887] INFO: Epoch #58 validating
+[2023-11-24 23:35:33,312] INFO: Processed 161056 entries in total (avg. speed 3325.9 entries/s)
+[2023-11-24 23:35:33,312] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 23:35:33,351] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:35:33,418] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9747662]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.89350853 0.10649147]
+ [0.04743629 0.95256371]]
+[2023-11-24 23:35:33,418] INFO: [1mEpoch #58: Current validation metric: 0.93574 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:35:33,418] INFO: Epoch #59 training
+[2023-11-24 23:39:34,955] INFO: Processed 322112 entries in total (avg. speed 1333.6 entries/s)
+[2023-11-24 23:39:34,955] INFO: Train AvgLoss: 0.09995, AvgAcc: 0.96265
+[2023-11-24 23:39:34,955] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-24 23:39:35,047] INFO: Epoch #59 validating
+[2023-11-24 23:40:22,654] INFO: Processed 161056 entries in total (avg. speed 3383.1 entries/s)
+[2023-11-24 23:40:22,654] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 23:40:22,692] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:40:22,755] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9740456]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.8945304  0.1054696 ]
+ [0.04761822 0.95238178]]
+[2023-11-24 23:40:22,755] INFO: [1mEpoch #59: Current validation metric: 0.93590 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:40:22,755] INFO: Epoch #60 training
+[2023-11-24 23:44:23,328] INFO: Processed 322112 entries in total (avg. speed 1338.9 entries/s)
+[2023-11-24 23:44:23,329] INFO: Train AvgLoss: 0.09843, AvgAcc: 0.96320
+[2023-11-24 23:44:23,329] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 23:44:23,373] INFO: Epoch #60 validating
+[2023-11-24 23:45:10,937] INFO: Processed 161056 entries in total (avg. speed 3386.1 entries/s)
+[2023-11-24 23:45:10,937] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 23:45:10,977] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:45:11,038] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9727486]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.87043211 0.12956789]
+ [0.04534364 0.95465636]]
+[2023-11-24 23:45:11,038] INFO: [1mEpoch #60: Current validation metric: 0.93066 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:45:11,038] INFO: Epoch #61 training
+[2023-11-24 23:49:11,813] INFO: Processed 322112 entries in total (avg. speed 1337.8 entries/s)
+[2023-11-24 23:49:11,813] INFO: Train AvgLoss: 0.09661, AvgAcc: 0.96362
+[2023-11-24 23:49:11,813] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 23:49:11,904] INFO: Epoch #61 validating
+[2023-11-24 23:49:59,581] INFO: Processed 161056 entries in total (avg. speed 3378.2 entries/s)
+[2023-11-24 23:49:59,581] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-24 23:49:59,624] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:49:59,687] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97446615]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.87456962 0.12543038]
+ [0.04270358 0.95729642]]
+[2023-11-24 23:49:59,688] INFO: [1mEpoch #61: Current validation metric: 0.93372 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:49:59,688] INFO: Epoch #62 training
+[2023-11-24 23:54:00,681] INFO: Processed 322112 entries in total (avg. speed 1336.6 entries/s)
+[2023-11-24 23:54:00,682] INFO: Train AvgLoss: 0.09576, AvgAcc: 0.96426
+[2023-11-24 23:54:00,682] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-24 23:54:00,766] INFO: Epoch #62 validating
+[2023-11-24 23:54:48,579] INFO: Processed 161056 entries in total (avg. speed 3368.5 entries/s)
+[2023-11-24 23:54:48,580] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 23:54:48,617] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:54:48,679] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97430295]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.91654137 0.08345863]
+ [0.05488647 0.94511353]]
+[2023-11-24 23:54:48,679] INFO: [1mEpoch #62: Current validation metric: 0.93697 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:54:48,679] INFO: Epoch #63 training
+[2023-11-24 23:58:50,210] INFO: Processed 322112 entries in total (avg. speed 1333.6 entries/s)
+[2023-11-24 23:58:50,211] INFO: Train AvgLoss: 0.09547, AvgAcc: 0.96439
+[2023-11-24 23:58:50,211] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-24 23:58:50,300] INFO: Epoch #63 validating
+[2023-11-24 23:59:37,949] INFO: Processed 161056 entries in total (avg. speed 3380.0 entries/s)
+[2023-11-24 23:59:37,950] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-24 23:59:37,990] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-24 23:59:38,049] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97476625]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.88209017 0.11790983]
+ [0.0426779  0.9573221 ]]
+[2023-11-24 23:59:38,050] INFO: [1mEpoch #63: Current validation metric: 0.93589 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-24 23:59:38,050] INFO: Epoch #64 training
+[2023-11-25 00:03:39,806] INFO: Processed 322112 entries in total (avg. speed 1332.4 entries/s)
+[2023-11-25 00:03:39,806] INFO: Train AvgLoss: 0.09316, AvgAcc: 0.96492
+[2023-11-25 00:03:39,806] INFO: Train class distribution: 
+    [(0, 92056), (1, 230056)]
+[2023-11-25 00:03:39,878] INFO: Epoch #64 validating
+[2023-11-25 00:04:27,527] INFO: Processed 161056 entries in total (avg. speed 3380.1 entries/s)
+[2023-11-25 00:04:27,527] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-25 00:04:27,569] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:04:27,630] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9744678]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.89165868 0.10834132]
+ [0.04719357 0.95280643]]
+[2023-11-25 00:04:27,631] INFO: [1mEpoch #64: Current validation metric: 0.93538 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:04:27,631] INFO: Epoch #65 training
+[2023-11-25 00:08:29,112] INFO: Processed 322112 entries in total (avg. speed 1333.9 entries/s)
+[2023-11-25 00:08:29,112] INFO: Train AvgLoss: 0.09309, AvgAcc: 0.96495
+[2023-11-25 00:08:29,113] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 00:08:29,194] INFO: Epoch #65 validating
+[2023-11-25 00:09:17,081] INFO: Processed 161056 entries in total (avg. speed 3363.3 entries/s)
+[2023-11-25 00:09:17,081] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-25 00:09:17,120] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:09:17,181] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9746792]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.90364334 0.09635666]
+ [0.04920809 0.95079191]]
+[2023-11-25 00:09:17,181] INFO: [1mEpoch #65: Current validation metric: 0.93736 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:09:17,181] INFO: Epoch #66 training
+[2023-11-25 00:13:18,350] INFO: Processed 322112 entries in total (avg. speed 1335.6 entries/s)
+[2023-11-25 00:13:18,350] INFO: Train AvgLoss: 0.09215, AvgAcc: 0.96538
+[2023-11-25 00:13:18,351] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 00:13:18,412] INFO: Epoch #66 validating
+[2023-11-25 00:14:05,935] INFO: Processed 161056 entries in total (avg. speed 3389.1 entries/s)
+[2023-11-25 00:14:05,935] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 00:14:05,977] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:14:06,040] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.94925237]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.9052299  0.0947701 ]
+ [0.10740149 0.89259851]]
+[2023-11-25 00:14:06,040] INFO: [1mEpoch #66: Current validation metric: 0.89620 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:14:06,040] INFO: Epoch #67 training
+[2023-11-25 00:18:08,305] INFO: Processed 322112 entries in total (avg. speed 1329.6 entries/s)
+[2023-11-25 00:18:08,305] INFO: Train AvgLoss: 0.08952, AvgAcc: 0.96643
+[2023-11-25 00:18:08,305] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-25 00:18:08,364] INFO: Epoch #67 validating
+[2023-11-25 00:18:55,849] INFO: Processed 161056 entries in total (avg. speed 3391.7 entries/s)
+[2023-11-25 00:18:55,849] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 00:18:55,884] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:18:55,946] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9742904]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.87969056 0.12030944]
+ [0.04335481 0.95664519]]
+[2023-11-25 00:18:55,946] INFO: [1mEpoch #67: Current validation metric: 0.93472 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:18:55,946] INFO: Epoch #68 training
+[2023-11-25 00:22:57,913] INFO: Processed 322112 entries in total (avg. speed 1331.2 entries/s)
+[2023-11-25 00:22:57,913] INFO: Train AvgLoss: 0.08861, AvgAcc: 0.96633
+[2023-11-25 00:22:57,913] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 00:22:58,044] INFO: Epoch #68 validating
+[2023-11-25 00:23:45,734] INFO: Processed 161056 entries in total (avg. speed 3377.3 entries/s)
+[2023-11-25 00:23:45,734] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 00:23:45,776] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:23:45,838] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97330093]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.90298751 0.09701249]
+ [0.05110928 0.94889072]]
+[2023-11-25 00:23:45,838] INFO: [1mEpoch #68: Current validation metric: 0.93581 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:23:45,838] INFO: Epoch #69 training
+[2023-11-25 00:27:47,921] INFO: Processed 322112 entries in total (avg. speed 1330.6 entries/s)
+[2023-11-25 00:27:47,922] INFO: Train AvgLoss: 0.08817, AvgAcc: 0.96664
+[2023-11-25 00:27:47,942] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-25 00:27:48,002] INFO: Epoch #69 validating
+[2023-11-25 00:28:35,991] INFO: Processed 161056 entries in total (avg. speed 3356.1 entries/s)
+[2023-11-25 00:28:35,991] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 00:28:36,028] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:28:36,132] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9727784]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.89856178 0.10143822]
+ [0.04988451 0.95011549]]
+[2023-11-25 00:28:36,132] INFO: [1mEpoch #69: Current validation metric: 0.93543 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:28:36,132] INFO: Epoch #70 training
+[2023-11-25 00:32:36,994] INFO: Processed 322112 entries in total (avg. speed 1337.3 entries/s)
+[2023-11-25 00:32:36,994] INFO: Train AvgLoss: 0.08186, AvgAcc: 0.96886
+[2023-11-25 00:32:37,007] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-25 00:32:37,064] INFO: Epoch #70 validating
+[2023-11-25 00:33:24,612] INFO: Processed 161056 entries in total (avg. speed 3387.3 entries/s)
+[2023-11-25 00:33:24,612] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 00:33:24,784] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:33:24,951] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97288984]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.8857946  0.1142054 ]
+ [0.04556072 0.95443928]]
+[2023-11-25 00:33:24,951] INFO: [1mEpoch #70: Current validation metric: 0.93488 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:33:24,951] INFO: Epoch #71 training
+[2023-11-25 00:37:26,258] INFO: Processed 322112 entries in total (avg. speed 1334.9 entries/s)
+[2023-11-25 00:37:26,258] INFO: Train AvgLoss: 0.07627, AvgAcc: 0.97095
+[2023-11-25 00:37:26,259] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-25 00:37:26,317] INFO: Epoch #71 validating
+[2023-11-25 00:38:14,076] INFO: Processed 161056 entries in total (avg. speed 3372.3 entries/s)
+[2023-11-25 00:38:14,076] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-25 00:38:14,114] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:38:14,176] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9714411]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.89107034 0.10892966]
+ [0.04783613 0.95216387]]
+[2023-11-25 00:38:14,176] INFO: [1mEpoch #71: Current validation metric: 0.93476 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:38:14,176] INFO: Epoch #72 training
+[2023-11-25 00:42:15,911] INFO: Processed 322112 entries in total (avg. speed 1332.5 entries/s)
+[2023-11-25 00:42:15,911] INFO: Train AvgLoss: 0.06943, AvgAcc: 0.97360
+[2023-11-25 00:42:15,911] INFO: Train class distribution: 
+    [(0, 92061), (1, 230051)]
+[2023-11-25 00:42:16,001] INFO: Epoch #72 validating
+[2023-11-25 00:43:04,347] INFO: Processed 161056 entries in total (avg. speed 3331.4 entries/s)
+[2023-11-25 00:43:04,347] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 00:43:04,384] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:43:04,447] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96896404]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.90076486 0.09923514]
+ [0.05696175 0.94303825]]
+[2023-11-25 00:43:04,447] INFO: [1mEpoch #72: Current validation metric: 0.93099 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:43:04,447] INFO: Epoch #73 training
+[2023-11-25 00:47:05,881] INFO: Processed 322112 entries in total (avg. speed 1334.2 entries/s)
+[2023-11-25 00:47:05,881] INFO: Train AvgLoss: 0.06462, AvgAcc: 0.97538
+[2023-11-25 00:47:05,881] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-25 00:47:05,952] INFO: Epoch #73 validating
+[2023-11-25 00:47:53,789] INFO: Processed 161056 entries in total (avg. speed 3366.8 entries/s)
+[2023-11-25 00:47:53,790] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 00:47:53,827] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:47:53,888] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9712891]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.90945937 0.09054063]
+ [0.0560066  0.9439934 ]]
+[2023-11-25 00:47:53,889] INFO: [1mEpoch #73: Current validation metric: 0.93415 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:47:53,889] INFO: Epoch #74 training
+[2023-11-25 00:51:55,360] INFO: Processed 322112 entries in total (avg. speed 1334.0 entries/s)
+[2023-11-25 00:51:55,360] INFO: Train AvgLoss: 0.05884, AvgAcc: 0.97754
+[2023-11-25 00:51:55,360] INFO: Train class distribution: 
+    [(0, 92061), (1, 230051)]
+[2023-11-25 00:51:55,453] INFO: Epoch #74 validating
+[2023-11-25 00:52:43,218] INFO: Processed 161056 entries in total (avg. speed 3371.9 entries/s)
+[2023-11-25 00:52:43,218] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-25 00:52:43,257] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:52:43,319] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9688146]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88660333 0.11339667]
+ [0.04949463 0.95050537]]
+[2023-11-25 00:52:43,319] INFO: [1mEpoch #74: Current validation metric: 0.93230 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:52:43,319] INFO: Epoch #75 training
+[2023-11-25 00:56:44,821] INFO: Processed 322112 entries in total (avg. speed 1333.8 entries/s)
+[2023-11-25 00:56:44,821] INFO: Train AvgLoss: 0.05576, AvgAcc: 0.97841
+[2023-11-25 00:56:44,821] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 00:56:44,855] INFO: Epoch #75 validating
+[2023-11-25 00:57:32,429] INFO: Processed 161056 entries in total (avg. speed 3385.4 entries/s)
+[2023-11-25 00:57:32,429] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 00:57:32,471] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 00:57:32,527] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.94564414]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.84035738 0.15964262]
+ [0.087439   0.912561  ]]
+[2023-11-25 00:57:32,527] INFO: [1mEpoch #75: Current validation metric: 0.89199 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 00:57:32,528] INFO: Epoch #76 training
+[2023-11-25 01:01:34,031] INFO: Processed 322112 entries in total (avg. speed 1333.8 entries/s)
+[2023-11-25 01:01:34,031] INFO: Train AvgLoss: 0.05147, AvgAcc: 0.98019
+[2023-11-25 01:01:34,031] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-25 01:01:34,114] INFO: Epoch #76 validating
+[2023-11-25 01:02:21,877] INFO: Processed 161056 entries in total (avg. speed 3372.0 entries/s)
+[2023-11-25 01:02:21,877] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 01:02:21,916] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:02:21,973] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.97032595]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.89187422 0.10812578]
+ [0.04973733 0.95026267]]
+[2023-11-25 01:02:21,973] INFO: [1mEpoch #76: Current validation metric: 0.93363 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:02:21,973] INFO: Epoch #77 training
+[2023-11-25 01:06:23,223] INFO: Processed 322112 entries in total (avg. speed 1335.2 entries/s)
+[2023-11-25 01:06:23,224] INFO: Train AvgLoss: 0.04811, AvgAcc: 0.98148
+[2023-11-25 01:06:23,225] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-25 01:06:23,331] INFO: Epoch #77 validating
+[2023-11-25 01:07:11,337] INFO: Processed 161056 entries in total (avg. speed 3355.0 entries/s)
+[2023-11-25 01:07:11,337] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 01:07:11,377] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:07:11,437] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9667281]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88328866 0.11671134]
+ [0.05051882 0.94948118]]
+[2023-11-25 01:07:11,437] INFO: [1mEpoch #77: Current validation metric: 0.93062 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:07:11,437] INFO: Epoch #78 training
+[2023-11-25 01:11:12,828] INFO: Processed 322112 entries in total (avg. speed 1334.4 entries/s)
+[2023-11-25 01:11:12,828] INFO: Train AvgLoss: 0.04479, AvgAcc: 0.98266
+[2023-11-25 01:11:12,828] INFO: Train class distribution: 
+    [(0, 92061), (1, 230051)]
+[2023-11-25 01:11:12,897] INFO: Epoch #78 validating
+[2023-11-25 01:12:00,673] INFO: Processed 161056 entries in total (avg. speed 3371.1 entries/s)
+[2023-11-25 01:12:00,673] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-25 01:12:00,714] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:12:00,774] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96908855]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.8992569  0.1007431 ]
+ [0.05465107 0.94534893]]
+[2023-11-25 01:12:00,774] INFO: [1mEpoch #78: Current validation metric: 0.93222 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:12:00,774] INFO: Epoch #79 training
+[2023-11-25 01:16:02,233] INFO: Processed 322112 entries in total (avg. speed 1334.0 entries/s)
+[2023-11-25 01:16:02,233] INFO: Train AvgLoss: 0.04268, AvgAcc: 0.98367
+[2023-11-25 01:16:02,233] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-25 01:16:02,315] INFO: Epoch #79 validating
+[2023-11-25 01:16:50,105] INFO: Processed 161056 entries in total (avg. speed 3370.1 entries/s)
+[2023-11-25 01:16:50,105] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 01:16:50,144] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:16:50,200] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9688869]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.89058857 0.10941143]
+ [0.05084878 0.94915122]]
+[2023-11-25 01:16:50,201] INFO: [1mEpoch #79: Current validation metric: 0.93246 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:16:50,201] INFO: Epoch #80 training
+[2023-11-25 01:20:51,486] INFO: Processed 322112 entries in total (avg. speed 1335.0 entries/s)
+[2023-11-25 01:20:51,487] INFO: Train AvgLoss: 0.03926, AvgAcc: 0.98493
+[2023-11-25 01:20:51,487] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 01:20:51,529] INFO: Epoch #80 validating
+[2023-11-25 01:21:39,790] INFO: Processed 161056 entries in total (avg. speed 3337.2 entries/s)
+[2023-11-25 01:21:39,790] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 01:21:39,824] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:21:39,880] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.94265753]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.85739813 0.14260187]
+ [0.09251863 0.90748137]]
+[2023-11-25 01:21:39,880] INFO: [1mEpoch #80: Current validation metric: 0.89321 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:21:39,880] INFO: Epoch #81 training
+[2023-11-25 01:25:40,943] INFO: Processed 322112 entries in total (avg. speed 1336.2 entries/s)
+[2023-11-25 01:25:40,943] INFO: Train AvgLoss: 0.03838, AvgAcc: 0.98523
+[2023-11-25 01:25:40,943] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-25 01:25:41,042] INFO: Epoch #81 validating
+[2023-11-25 01:26:28,377] INFO: Processed 161056 entries in total (avg. speed 3402.5 entries/s)
+[2023-11-25 01:26:28,377] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 01:26:28,414] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:26:28,470] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.93972224]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.82689416 0.17310584]
+ [0.08838623 0.91161377]]
+[2023-11-25 01:26:28,470] INFO: [1mEpoch #81: Current validation metric: 0.88747 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:26:28,470] INFO: Epoch #82 training
+[2023-11-25 01:30:29,425] INFO: Processed 322112 entries in total (avg. speed 1336.8 entries/s)
+[2023-11-25 01:30:29,425] INFO: Train AvgLoss: 0.03645, AvgAcc: 0.98588
+[2023-11-25 01:30:29,425] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 01:30:29,553] INFO: Epoch #82 validating
+[2023-11-25 01:31:16,909] INFO: Processed 161056 entries in total (avg. speed 3401.1 entries/s)
+[2023-11-25 01:31:16,909] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-25 01:31:16,944] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:31:17,004] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9675958]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88228885 0.11771115]
+ [0.04828766 0.95171234]]
+[2023-11-25 01:31:17,004] INFO: [1mEpoch #82: Current validation metric: 0.93193 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:31:17,004] INFO: Epoch #83 training
+[2023-11-25 01:35:20,982] INFO: Processed 322112 entries in total (avg. speed 1320.3 entries/s)
+[2023-11-25 01:35:20,984] INFO: Train AvgLoss: 0.03473, AvgAcc: 0.98654
+[2023-11-25 01:35:20,994] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-25 01:35:21,280] INFO: Epoch #83 validating
+[2023-11-25 01:36:09,518] INFO: Processed 161056 entries in total (avg. speed 3338.8 entries/s)
+[2023-11-25 01:36:09,519] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 01:36:09,561] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:36:09,656] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.93908316]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.8244536  0.1755464 ]
+ [0.08783919 0.91216081]]
+[2023-11-25 01:36:09,656] INFO: [1mEpoch #83: Current validation metric: 0.88717 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:36:09,656] INFO: Epoch #84 training
+[2023-11-25 01:40:11,301] INFO: Processed 322112 entries in total (avg. speed 1333.0 entries/s)
+[2023-11-25 01:40:11,301] INFO: Train AvgLoss: 0.03349, AvgAcc: 0.98707
+[2023-11-25 01:40:11,301] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 01:40:11,358] INFO: Epoch #84 validating
+[2023-11-25 01:40:59,051] INFO: Processed 161056 entries in total (avg. speed 3376.9 entries/s)
+[2023-11-25 01:40:59,051] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 01:40:59,148] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:40:59,237] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96641994]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.878255  0.121745 ]
+ [0.0495463 0.9504537]]
+[2023-11-25 01:40:59,237] INFO: [1mEpoch #84: Current validation metric: 0.92988 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:40:59,237] INFO: Epoch #85 training
+[2023-11-25 01:45:00,385] INFO: Processed 322112 entries in total (avg. speed 1335.8 entries/s)
+[2023-11-25 01:45:00,386] INFO: Train AvgLoss: 0.03195, AvgAcc: 0.98753
+[2023-11-25 01:45:00,386] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-25 01:45:00,485] INFO: Epoch #85 validating
+[2023-11-25 01:45:48,419] INFO: Processed 161056 entries in total (avg. speed 3360.0 entries/s)
+[2023-11-25 01:45:48,419] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 01:45:48,455] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:45:48,514] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9669383]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88840706 0.11159294]
+ [0.05196846 0.94803154]]
+[2023-11-25 01:45:48,514] INFO: [1mEpoch #85: Current validation metric: 0.93104 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:45:48,514] INFO: Epoch #86 training
+[2023-11-25 01:49:49,852] INFO: Processed 322112 entries in total (avg. speed 1334.7 entries/s)
+[2023-11-25 01:49:49,852] INFO: Train AvgLoss: 0.03146, AvgAcc: 0.98780
+[2023-11-25 01:49:49,852] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-25 01:49:49,943] INFO: Epoch #86 validating
+[2023-11-25 01:50:37,690] INFO: Processed 161056 entries in total (avg. speed 3373.2 entries/s)
+[2023-11-25 01:50:37,690] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 01:50:37,730] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:50:37,789] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96699584]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.88751362 0.11248638]
+ [0.05063126 0.94936874]]
+[2023-11-25 01:50:37,789] INFO: [1mEpoch #86: Current validation metric: 0.93174 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:50:37,789] INFO: Epoch #87 training
+[2023-11-25 01:54:39,131] INFO: Processed 322112 entries in total (avg. speed 1334.7 entries/s)
+[2023-11-25 01:54:39,131] INFO: Train AvgLoss: 0.03070, AvgAcc: 0.98818
+[2023-11-25 01:54:39,131] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-25 01:54:39,218] INFO: Epoch #87 validating
+[2023-11-25 01:55:27,032] INFO: Processed 161056 entries in total (avg. speed 3368.4 entries/s)
+[2023-11-25 01:55:27,032] INFO: Evaluation class distribution: 
+    [(0, 45889), (1, 115167)]
+[2023-11-25 01:55:27,071] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 01:55:27,127] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9669459]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88929809 0.11070191]
+ [0.05089131 0.94910869]]
+[2023-11-25 01:55:27,127] INFO: [1mEpoch #87: Current validation metric: 0.93207 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 01:55:27,127] INFO: Epoch #88 training
+[2023-11-25 01:59:28,059] INFO: Processed 322112 entries in total (avg. speed 1336.9 entries/s)
+[2023-11-25 01:59:28,060] INFO: Train AvgLoss: 0.02966, AvgAcc: 0.98883
+[2023-11-25 01:59:28,060] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 01:59:28,126] INFO: Epoch #88 validating
+[2023-11-25 02:00:15,863] INFO: Processed 161056 entries in total (avg. speed 3373.8 entries/s)
+[2023-11-25 02:00:15,864] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-25 02:00:15,903] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:00:15,962] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9665687]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88091606 0.11908394]
+ [0.04878261 0.95121739]]
+[2023-11-25 02:00:15,963] INFO: [1mEpoch #88: Current validation metric: 0.93119 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:00:15,963] INFO: Epoch #89 training
+[2023-11-25 02:04:17,736] INFO: Processed 322112 entries in total (avg. speed 1332.3 entries/s)
+[2023-11-25 02:04:17,736] INFO: Train AvgLoss: 0.02880, AvgAcc: 0.98896
+[2023-11-25 02:04:17,736] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-25 02:04:17,841] INFO: Epoch #89 validating
+[2023-11-25 02:05:05,632] INFO: Processed 161056 entries in total (avg. speed 3370.1 entries/s)
+[2023-11-25 02:05:05,632] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 02:05:05,679] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:05:05,737] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.       0.965671]
+ [0.       0.      ]]
+    - confusion_matrix: 
+[[0.87491828 0.12508172]
+ [0.04744456 0.95255544]]
+[2023-11-25 02:05:05,737] INFO: [1mEpoch #89: Current validation metric: 0.93043 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:05:05,737] INFO: Epoch #90 training
+[2023-11-25 02:09:07,839] INFO: Processed 322112 entries in total (avg. speed 1330.5 entries/s)
+[2023-11-25 02:09:07,840] INFO: Train AvgLoss: 0.02811, AvgAcc: 0.98912
+[2023-11-25 02:09:07,840] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 02:09:07,901] INFO: Epoch #90 validating
+[2023-11-25 02:09:55,692] INFO: Processed 161056 entries in total (avg. speed 3370.1 entries/s)
+[2023-11-25 02:09:55,692] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-25 02:09:55,734] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:09:55,792] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9662314]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.89141898 0.10858102]
+ [0.05256851 0.94743149]]
+[2023-11-25 02:09:55,792] INFO: [1mEpoch #90: Current validation metric: 0.93147 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:09:55,792] INFO: Epoch #91 training
+[2023-11-25 02:13:57,558] INFO: Processed 322112 entries in total (avg. speed 1332.3 entries/s)
+[2023-11-25 02:13:57,560] INFO: Train AvgLoss: 0.02751, AvgAcc: 0.98924
+[2023-11-25 02:13:57,560] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 02:13:57,646] INFO: Epoch #91 validating
+[2023-11-25 02:14:45,648] INFO: Processed 161056 entries in total (avg. speed 3355.2 entries/s)
+[2023-11-25 02:14:45,649] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 02:14:45,691] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:14:45,746] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9658205]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.87955982 0.12044018]
+ [0.0490162  0.9509838 ]]
+[2023-11-25 02:14:45,746] INFO: [1mEpoch #91: Current validation metric: 0.93063 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:14:45,746] INFO: Epoch #92 training
+[2023-11-25 02:18:47,365] INFO: Processed 322112 entries in total (avg. speed 1333.1 entries/s)
+[2023-11-25 02:18:47,365] INFO: Train AvgLoss: 0.02724, AvgAcc: 0.98947
+[2023-11-25 02:18:47,365] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 02:18:47,430] INFO: Epoch #92 validating
+[2023-11-25 02:19:35,186] INFO: Processed 161056 entries in total (avg. speed 3372.5 entries/s)
+[2023-11-25 02:19:35,186] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 02:19:35,225] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:19:35,282] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96606827]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.88923754 0.11076246]
+ [0.05228151 0.94771849]]
+[2023-11-25 02:19:35,282] INFO: [1mEpoch #92: Current validation metric: 0.93106 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:19:35,282] INFO: Epoch #93 training
+[2023-11-25 02:23:36,465] INFO: Processed 322112 entries in total (avg. speed 1335.6 entries/s)
+[2023-11-25 02:23:36,465] INFO: Train AvgLoss: 0.02644, AvgAcc: 0.98973
+[2023-11-25 02:23:36,466] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 02:23:36,571] INFO: Epoch #93 validating
+[2023-11-25 02:24:24,160] INFO: Processed 161056 entries in total (avg. speed 3384.4 entries/s)
+[2023-11-25 02:24:24,160] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 02:24:24,205] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:24:24,262] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9658668]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88921575 0.11078425]
+ [0.05151739 0.94848261]]
+[2023-11-25 02:24:24,262] INFO: [1mEpoch #93: Current validation metric: 0.93160 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:24:24,262] INFO: Epoch #94 training
+[2023-11-25 02:28:26,603] INFO: Processed 322112 entries in total (avg. speed 1329.2 entries/s)
+[2023-11-25 02:28:26,604] INFO: Train AvgLoss: 0.02611, AvgAcc: 0.99011
+[2023-11-25 02:28:26,604] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-25 02:28:26,680] INFO: Epoch #94 validating
+[2023-11-25 02:29:14,297] INFO: Processed 161056 entries in total (avg. speed 3382.4 entries/s)
+[2023-11-25 02:29:14,298] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 02:29:14,333] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:29:14,392] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96593666]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.88818915 0.11181085]
+ [0.05123908 0.94876092]]
+[2023-11-25 02:29:14,392] INFO: [1mEpoch #94: Current validation metric: 0.93150 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:29:14,392] INFO: Epoch #95 training
+[2023-11-25 02:33:15,799] INFO: Processed 322112 entries in total (avg. speed 1334.3 entries/s)
+[2023-11-25 02:33:15,800] INFO: Train AvgLoss: 0.02630, AvgAcc: 0.98992
+[2023-11-25 02:33:15,800] INFO: Train class distribution: 
+    [(0, 92055), (1, 230057)]
+[2023-11-25 02:33:15,859] INFO: Epoch #95 validating
+[2023-11-25 02:34:03,401] INFO: Processed 161056 entries in total (avg. speed 3387.7 entries/s)
+[2023-11-25 02:34:03,401] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 02:34:03,437] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:34:03,499] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9658764]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.89050141 0.10949859]
+ [0.05234229 0.94765771]]
+[2023-11-25 02:34:03,499] INFO: [1mEpoch #95: Current validation metric: 0.93137 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:34:03,499] INFO: Epoch #96 training
+[2023-11-25 02:38:05,208] INFO: Processed 322112 entries in total (avg. speed 1332.6 entries/s)
+[2023-11-25 02:38:05,208] INFO: Train AvgLoss: 0.02599, AvgAcc: 0.98995
+[2023-11-25 02:38:05,208] INFO: Train class distribution: 
+    [(0, 92060), (1, 230052)]
+[2023-11-25 02:38:05,285] INFO: Epoch #96 validating
+[2023-11-25 02:38:53,001] INFO: Processed 161056 entries in total (avg. speed 3375.3 entries/s)
+[2023-11-25 02:38:53,002] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 02:38:53,036] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:38:53,099] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9654908]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.891545   0.108455  ]
+ [0.05344459 0.94655541]]
+[2023-11-25 02:38:53,099] INFO: [1mEpoch #96: Current validation metric: 0.93088 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:38:53,099] INFO: Epoch #97 training
+[2023-11-25 02:42:55,181] INFO: Processed 322112 entries in total (avg. speed 1330.6 entries/s)
+[2023-11-25 02:42:55,182] INFO: Train AvgLoss: 0.02583, AvgAcc: 0.99001
+[2023-11-25 02:42:55,200] INFO: Train class distribution: 
+    [(0, 92059), (1, 230053)]
+[2023-11-25 02:42:55,293] INFO: Epoch #97 validating
+[2023-11-25 02:43:43,084] INFO: Processed 161056 entries in total (avg. speed 3370.1 entries/s)
+[2023-11-25 02:43:43,084] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115164)]
+[2023-11-25 02:43:43,160] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:43:43,281] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.         0.96567017]
+ [0.         0.        ]]
+    - confusion_matrix: 
+[[0.89131003 0.10868997]
+ [0.05253378 0.94746622]]
+[2023-11-25 02:43:43,281] INFO: [1mEpoch #97: Current validation metric: 0.93146 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:43:43,281] INFO: Epoch #98 training
+[2023-11-25 02:47:44,994] INFO: Processed 322112 entries in total (avg. speed 1332.6 entries/s)
+[2023-11-25 02:47:44,994] INFO: Train AvgLoss: 0.02474, AvgAcc: 0.99030
+[2023-11-25 02:47:44,994] INFO: Train class distribution: 
+    [(0, 92057), (1, 230055)]
+[2023-11-25 02:47:45,085] INFO: Epoch #98 validating
+[2023-11-25 02:48:32,892] INFO: Processed 161056 entries in total (avg. speed 3369.0 entries/s)
+[2023-11-25 02:48:32,892] INFO: Evaluation class distribution: 
+    [(0, 45890), (1, 115166)]
+[2023-11-25 02:48:32,996] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:48:33,088] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9652879]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.88215297 0.11784703]
+ [0.0503534  0.9496466 ]]
+[2023-11-25 02:48:33,088] INFO: [1mEpoch #98: Current validation metric: 0.93042 (best: 0.94119)[0m
+--------------------------------------------------
+[2023-11-25 02:48:33,088] INFO: Epoch #99 training
+[2023-11-25 02:52:34,609] INFO: Processed 322112 entries in total (avg. speed 1333.7 entries/s)
+[2023-11-25 02:52:34,610] INFO: Train AvgLoss: 0.02529, AvgAcc: 0.99056
+[2023-11-25 02:52:34,610] INFO: Train class distribution: 
+    [(0, 92058), (1, 230054)]
+[2023-11-25 02:52:34,703] INFO: Epoch #99 validating
+[2023-11-25 02:53:22,544] INFO: Processed 161056 entries in total (avg. speed 3366.6 entries/s)
+[2023-11-25 02:53:22,544] INFO: Evaluation class distribution: 
+    [(0, 45891), (1, 115165)]
+[2023-11-25 02:53:22,581] ERROR: y should be a 1d array, got an array of shape (161056, 2) instead.
+[2023-11-25 02:53:22,641] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9655479]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.89159094 0.10840906]
+ [0.05349716 0.94650284]]
+[2023-11-25 02:53:22,641] INFO: [1mEpoch #99: Current validation metric: 0.93086 (best: 0.94119)[0m
+[2023-11-25 02:54:08,711] INFO: args:
+ - ('regression_mode', False)
+ - ('data_config', '/lhome/ific/f/fkellere/NEXT_Features.yaml')
+ - ('data_train', [])
+ - ('data_val', [])
+ - ('data_test', ['/lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_*.root'])
+ - ('data_fraction', 1)
+ - ('file_fraction', 1)
+ - ('fetch_by_files', False)
+ - ('fetch_step', 0.01)
+ - ('in_memory', False)
+ - ('train_val_split', 0.8)
+ - ('demo', False)
+ - ('lr_finder', None)
+ - ('tensorboard', None)
+ - ('tensorboard_custom_fn', None)
+ - ('network_config', 'top_tagging/networks/particlenet_pf.py')
+ - ('network_option', [])
+ - ('model_prefix', '/lhome/ific/f/fkellere/weaver-benchmark/weaver/output/particlenet_best_epoch_state.pt')
+ - ('num_epochs', 20)
+ - ('steps_per_epoch', None)
+ - ('steps_per_epoch_val', None)
+ - ('optimizer', 'ranger')
+ - ('optimizer_option', [])
+ - ('lr_scheduler', 'flat+decay')
+ - ('load_epoch', None)
+ - ('start_lr', 0.005)
+ - ('batch_size', 1024)
+ - ('use_amp', False)
+ - ('gpus', '0')
+ - ('num_workers', 3)
+ - ('predict', True)
+ - ('predict_output', 'output/particlenet_predict.root')
+ - ('export_onnx', None)
+ - ('io_test', False)
+ - ('copy_inputs', False)
+ - ('log', '')
+ - ('print', False)
+ - ('profile', False)
+[2023-11-25 02:54:08,712] INFO: Running in classification mode
+[2023-11-25 02:54:22,576] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-25 02:54:22,577] INFO: selection: None
+[2023-11-25 02:54:22,577] INFO: test_time_selection: None
+[2023-11-25 02:54:22,577] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-25 02:54:22,577] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-25 02:54:22,577] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-25 02:54:22,577] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-25 02:54:22,577] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-25 02:54:22,577] INFO: label_names: ('_label_',)
+[2023-11-25 02:54:22,578] INFO: observer_names: ()
+[2023-11-25 02:54:22,578] INFO: monitor_variables: ()
+[2023-11-25 02:54:22,691] INFO: Network options: {}
+[2023-11-25 02:54:22,876] INFO: Warning: module FeatureConv is treated as a zero-op.
+[2023-11-25 02:54:22,876] INFO: Warning: module EdgeConvBlock is treated as a zero-op.
+[2023-11-25 02:54:22,877] INFO: Warning: module Dropout is treated as a zero-op.
+[2023-11-25 02:54:22,877] INFO: Warning: module ParticleNet is treated as a zero-op.
+[2023-11-25 02:54:22,877] INFO: Warning: module ParticleNetTagger1Path is treated as a zero-op.
+[2023-11-25 02:54:23,499] INFO: ParticleNetTagger1Path(
+  |0.577 M, 100.000% Params, 0.441 GMac, 100.000% MACs|
+  (pf_conv): FeatureConv(
+    |0.0 M, 0.035% Params, 0.0 GMac, 0.005% MACs|
+    (conv): Sequential(
+      |0.0 M, 0.035% Params, 0.0 GMac, 0.005% MACs|
+      (0): BatchNorm1d(4, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.001% Params, 0.0 GMac, 0.000% MACs|)
+      (1): Conv1d(4, 32, kernel_size=(1,), stride=(1,), bias=False, |0.0 M, 0.022% Params, 0.0 GMac, 0.003% MACs|)
+      (2): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.011% Params, 0.0 GMac, 0.001% MACs|)
+      (3): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.001% MACs|)
+    )
+  )
+  (pn): ParticleNet(
+    |0.577 M, 99.965% Params, 0.441 GMac, 99.995% MACs|
+    (edge_convs): ModuleList(
+      |0.305 M, 52.823% Params, 0.424 GMac, 96.047% MACs|
+      (0): EdgeConvBlock(
+        |0.015 M, 2.575% Params, 0.021 GMac, 4.716% MACs|
+        (convs): ModuleList(
+          |0.012 M, 2.131% Params, 0.02 GMac, 4.456% MACs|
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+          (1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+          (2): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+        )
+        (bns): ModuleList(
+          |0.0 M, 0.067% Params, 0.001 GMac, 0.139% MACs|
+          (0): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+          (2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.0 GMac, 0.070% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+        )
+        (sc): Conv1d(32, 64, kernel_size=(1,), stride=(1,), bias=False, |0.002 M, 0.355% Params, 0.0 GMac, 0.046% MACs|)
+        (sc_bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.003% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.001% MACs|)
+      )
+      (1): EdgeConvBlock(
+        |0.058 M, 10.121% Params, 0.081 GMac, 18.437% MACs|
+        (convs): ModuleList(
+          |0.049 M, 8.523% Params, 0.079 GMac, 17.825% MACs|
+          (0): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+          (1): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+          (2): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+        )
+        (bns): ModuleList(
+          |0.001 M, 0.133% Params, 0.001 GMac, 0.279% MACs|
+          (0): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+          (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+          (2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.001 GMac, 0.139% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+        )
+        (sc): Conv1d(64, 128, kernel_size=(1,), stride=(1,), bias=False, |0.008 M, 1.420% Params, 0.001 GMac, 0.186% MACs|)
+        (sc_bn): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.006% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.003% MACs|)
+      )
+      (2): EdgeConvBlock(
+        |0.231 M, 40.128% Params, 0.322 GMac, 72.894% MACs|
+        (convs): ModuleList(
+          |0.197 M, 34.091% Params, 0.315 GMac, 71.299% MACs|
+          (0): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+          (1): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+          (2): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+        )
+        (bns): ModuleList(
+          |0.002 M, 0.266% Params, 0.002 GMac, 0.557% MACs|
+          (0): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+          (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+          (2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.001 GMac, 0.279% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+        )
+        (sc): Conv1d(128, 256, kernel_size=(1,), stride=(1,), bias=False, |0.033 M, 5.682% Params, 0.003 GMac, 0.743% MACs|)
+        (sc_bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.0 GMac, 0.012% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.006% MACs|)
+      )
+    )
+    (fusion_block): Sequential(
+      |0.173 M, 29.963% Params, 0.017 GMac, 3.925% MACs|
+      (0): Conv1d(448, 384, kernel_size=(1,), stride=(1,), bias=False, |0.172 M, 29.830% Params, 0.017 GMac, 3.899% MACs|)
+      (1): BatchNorm1d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.133% Params, 0.0 GMac, 0.017% MACs|)
+      (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.009% MACs|)
+    )
+    (fc): Sequential(
+      |0.099 M, 17.179% Params, 0.0 GMac, 0.023% MACs|
+      (0): Sequential(
+        |0.099 M, 17.090% Params, 0.0 GMac, 0.022% MACs|
+        (0): Linear(in_features=384, out_features=256, bias=True, |0.099 M, 17.090% Params, 0.0 GMac, 0.022% MACs|)
+        (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.000% MACs|)
+        (2): Dropout(p=0.1, inplace=False, |0.0 M, 0.000% Params, 0.0 GMac, 0.000% MACs|)
+      )
+      (1): Linear(in_features=256, out_features=2, bias=True, |0.001 M, 0.089% Params, 0.0 GMac, 0.000% MACs|)
+    )
+  )
+)
+[2023-11-25 02:54:23,504] INFO: Computational complexity:       0.44 GMac
+[2023-11-25 02:54:23,504] INFO: Number of parameters:           576.71 k
+[2023-11-25 02:54:26,408] INFO: Loading model /lhome/ific/f/fkellere/weaver-benchmark/weaver/output/particlenet_best_epoch_state.pt for eval
+[2023-11-25 02:54:26,478] INFO: Running on test file group  with 17 files:
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_0.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_1.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_10.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_11.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_12.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_13.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_14.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_15.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_16.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_2.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_3.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_4.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_5.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_6.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_7.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_8.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_test_9.root
+[2023-11-25 02:54:26,485] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-25 02:54:26,485] INFO: selection: None
+[2023-11-25 02:54:26,485] INFO: test_time_selection: None
+[2023-11-25 02:54:26,485] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-25 02:54:26,485] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-25 02:54:26,485] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-25 02:54:26,485] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-25 02:54:26,485] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-25 02:54:26,485] INFO: label_names: ('_label_',)
+[2023-11-25 02:54:26,485] INFO: observer_names: ()
+[2023-11-25 02:54:26,485] INFO: monitor_variables: ()
+[2023-11-25 02:55:03,755] INFO: Processed 161060 entries in total (avg. speed 4323.8 entries/s)
+[2023-11-25 02:55:03,755] INFO: Evaluation class distribution: 
+    [(0, 45998), (1, 115062)]
+[2023-11-25 02:55:03,778] ERROR: y should be a 1d array, got an array of shape (161060, 2) instead.
+[2023-11-25 02:55:03,849] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9786652]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91680073 0.08319927]
+ [0.04859989 0.95140011]]
+[2023-11-25 02:55:03,849] INFO: [1mTest metric 0.94152[0m
+[2023-11-25 02:55:04,193] INFO: [1mWritten output to output/particlenet_predict.root[0m
+[2023-11-25 02:55:07,143] INFO: args:
+ - ('regression_mode', False)
+ - ('data_config', '/lhome/ific/f/fkellere/NEXT_Features.yaml')
+ - ('data_train', [])
+ - ('data_val', [])
+ - ('data_test', ['/lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_*.root'])
+ - ('data_fraction', 1)
+ - ('file_fraction', 1)
+ - ('fetch_by_files', False)
+ - ('fetch_step', 0.01)
+ - ('in_memory', False)
+ - ('train_val_split', 0.8)
+ - ('demo', False)
+ - ('lr_finder', None)
+ - ('tensorboard', None)
+ - ('tensorboard_custom_fn', None)
+ - ('network_config', 'top_tagging/networks/particlenet_pf.py')
+ - ('network_option', [])
+ - ('model_prefix', '/lhome/ific/f/fkellere/weaver-benchmark/weaver/output/particlenet_best_epoch_state.pt')
+ - ('num_epochs', 20)
+ - ('steps_per_epoch', None)
+ - ('steps_per_epoch_val', None)
+ - ('optimizer', 'ranger')
+ - ('optimizer_option', [])
+ - ('lr_scheduler', 'flat+decay')
+ - ('load_epoch', None)
+ - ('start_lr', 0.005)
+ - ('batch_size', 1024)
+ - ('use_amp', False)
+ - ('gpus', '0')
+ - ('num_workers', 3)
+ - ('predict', True)
+ - ('predict_output', 'output/particlenet_predict_train.root')
+ - ('export_onnx', None)
+ - ('io_test', False)
+ - ('copy_inputs', False)
+ - ('log', '')
+ - ('print', False)
+ - ('profile', False)
+[2023-11-25 02:55:07,143] INFO: Running in classification mode
+[2023-11-25 02:55:08,149] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-25 02:55:08,149] INFO: selection: None
+[2023-11-25 02:55:08,149] INFO: test_time_selection: None
+[2023-11-25 02:55:08,149] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-25 02:55:08,149] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-25 02:55:08,150] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-25 02:55:08,150] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-25 02:55:08,150] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-25 02:55:08,150] INFO: label_names: ('_label_',)
+[2023-11-25 02:55:08,150] INFO: observer_names: ()
+[2023-11-25 02:55:08,150] INFO: monitor_variables: ()
+[2023-11-25 02:55:08,158] INFO: Network options: {}
+[2023-11-25 02:55:08,188] INFO: Warning: module FeatureConv is treated as a zero-op.
+[2023-11-25 02:55:08,188] INFO: Warning: module EdgeConvBlock is treated as a zero-op.
+[2023-11-25 02:55:08,188] INFO: Warning: module Dropout is treated as a zero-op.
+[2023-11-25 02:55:08,188] INFO: Warning: module ParticleNet is treated as a zero-op.
+[2023-11-25 02:55:08,188] INFO: Warning: module ParticleNetTagger1Path is treated as a zero-op.
+[2023-11-25 02:55:08,216] INFO: ParticleNetTagger1Path(
+  |0.577 M, 100.000% Params, 0.441 GMac, 100.000% MACs|
+  (pf_conv): FeatureConv(
+    |0.0 M, 0.035% Params, 0.0 GMac, 0.005% MACs|
+    (conv): Sequential(
+      |0.0 M, 0.035% Params, 0.0 GMac, 0.005% MACs|
+      (0): BatchNorm1d(4, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.001% Params, 0.0 GMac, 0.000% MACs|)
+      (1): Conv1d(4, 32, kernel_size=(1,), stride=(1,), bias=False, |0.0 M, 0.022% Params, 0.0 GMac, 0.003% MACs|)
+      (2): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.011% Params, 0.0 GMac, 0.001% MACs|)
+      (3): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.001% MACs|)
+    )
+  )
+  (pn): ParticleNet(
+    |0.577 M, 99.965% Params, 0.441 GMac, 99.995% MACs|
+    (edge_convs): ModuleList(
+      |0.305 M, 52.823% Params, 0.424 GMac, 96.047% MACs|
+      (0): EdgeConvBlock(
+        |0.015 M, 2.575% Params, 0.021 GMac, 4.716% MACs|
+        (convs): ModuleList(
+          |0.012 M, 2.131% Params, 0.02 GMac, 4.456% MACs|
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+          (1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+          (2): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+        )
+        (bns): ModuleList(
+          |0.0 M, 0.067% Params, 0.001 GMac, 0.139% MACs|
+          (0): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+          (2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.0 GMac, 0.070% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+        )
+        (sc): Conv1d(32, 64, kernel_size=(1,), stride=(1,), bias=False, |0.002 M, 0.355% Params, 0.0 GMac, 0.046% MACs|)
+        (sc_bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.003% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.001% MACs|)
+      )
+      (1): EdgeConvBlock(
+        |0.058 M, 10.121% Params, 0.081 GMac, 18.437% MACs|
+        (convs): ModuleList(
+          |0.049 M, 8.523% Params, 0.079 GMac, 17.825% MACs|
+          (0): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+          (1): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+          (2): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+        )
+        (bns): ModuleList(
+          |0.001 M, 0.133% Params, 0.001 GMac, 0.279% MACs|
+          (0): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+          (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+          (2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.001 GMac, 0.139% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+        )
+        (sc): Conv1d(64, 128, kernel_size=(1,), stride=(1,), bias=False, |0.008 M, 1.420% Params, 0.001 GMac, 0.186% MACs|)
+        (sc_bn): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.006% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.003% MACs|)
+      )
+      (2): EdgeConvBlock(
+        |0.231 M, 40.128% Params, 0.322 GMac, 72.894% MACs|
+        (convs): ModuleList(
+          |0.197 M, 34.091% Params, 0.315 GMac, 71.299% MACs|
+          (0): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+          (1): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+          (2): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+        )
+        (bns): ModuleList(
+          |0.002 M, 0.266% Params, 0.002 GMac, 0.557% MACs|
+          (0): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+          (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+          (2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.001 GMac, 0.279% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+        )
+        (sc): Conv1d(128, 256, kernel_size=(1,), stride=(1,), bias=False, |0.033 M, 5.682% Params, 0.003 GMac, 0.743% MACs|)
+        (sc_bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.0 GMac, 0.012% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.006% MACs|)
+      )
+    )
+    (fusion_block): Sequential(
+      |0.173 M, 29.963% Params, 0.017 GMac, 3.925% MACs|
+      (0): Conv1d(448, 384, kernel_size=(1,), stride=(1,), bias=False, |0.172 M, 29.830% Params, 0.017 GMac, 3.899% MACs|)
+      (1): BatchNorm1d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.133% Params, 0.0 GMac, 0.017% MACs|)
+      (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.009% MACs|)
+    )
+    (fc): Sequential(
+      |0.099 M, 17.179% Params, 0.0 GMac, 0.023% MACs|
+      (0): Sequential(
+        |0.099 M, 17.090% Params, 0.0 GMac, 0.022% MACs|
+        (0): Linear(in_features=384, out_features=256, bias=True, |0.099 M, 17.090% Params, 0.0 GMac, 0.022% MACs|)
+        (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.000% MACs|)
+        (2): Dropout(p=0.1, inplace=False, |0.0 M, 0.000% Params, 0.0 GMac, 0.000% MACs|)
+      )
+      (1): Linear(in_features=256, out_features=2, bias=True, |0.001 M, 0.089% Params, 0.0 GMac, 0.000% MACs|)
+    )
+  )
+)
+[2023-11-25 02:55:08,219] INFO: Computational complexity:       0.44 GMac
+[2023-11-25 02:55:08,219] INFO: Number of parameters:           576.71 k
+[2023-11-25 02:55:09,287] INFO: Loading model /lhome/ific/f/fkellere/weaver-benchmark/weaver/output/particlenet_best_epoch_state.pt for eval
+[2023-11-25 02:55:09,302] INFO: Running on test file group  with 33 files:
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_0.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_1.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_10.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_11.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_12.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_13.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_14.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_15.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_16.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_17.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_18.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_19.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_2.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_20.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_21.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_22.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_23.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_24.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_25.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_26.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_27.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_28.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_29.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_3.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_30.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_31.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_32.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_4.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_5.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_6.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_7.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_8.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_train_9.root
+[2023-11-25 02:55:09,308] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-25 02:55:09,308] INFO: selection: None
+[2023-11-25 02:55:09,309] INFO: test_time_selection: None
+[2023-11-25 02:55:09,309] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-25 02:55:09,309] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-25 02:55:09,309] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-25 02:55:09,309] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-25 02:55:09,309] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-25 02:55:09,309] INFO: label_names: ('_label_',)
+[2023-11-25 02:55:09,309] INFO: observer_names: ()
+[2023-11-25 02:55:09,309] INFO: monitor_variables: ()
+[2023-11-25 02:56:11,202] INFO: Processed 322122 entries in total (avg. speed 5204.8 entries/s)
+[2023-11-25 02:56:11,202] INFO: Evaluation class distribution: 
+    [(0, 92061), (1, 230061)]
+[2023-11-25 02:56:11,247] ERROR: y should be a 1d array, got an array of shape (322122, 2) instead.
+[2023-11-25 02:56:11,388] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.       0.971557]
+ [0.       0.      ]]
+    - confusion_matrix: 
+[[0.86607793 0.13392207]
+ [0.03880275 0.96119725]]
+[2023-11-25 02:56:11,388] INFO: [1mTest metric 0.93401[0m
+[2023-11-25 02:56:11,601] INFO: [1mWritten output to output/particlenet_predict_train.root[0m
+[2023-11-25 02:56:14,758] INFO: args:
+ - ('regression_mode', False)
+ - ('data_config', '/lhome/ific/f/fkellere/NEXT_Features.yaml')
+ - ('data_train', [])
+ - ('data_val', [])
+ - ('data_test', ['/lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_*.root'])
+ - ('data_fraction', 1)
+ - ('file_fraction', 1)
+ - ('fetch_by_files', False)
+ - ('fetch_step', 0.01)
+ - ('in_memory', False)
+ - ('train_val_split', 0.8)
+ - ('demo', False)
+ - ('lr_finder', None)
+ - ('tensorboard', None)
+ - ('tensorboard_custom_fn', None)
+ - ('network_config', 'top_tagging/networks/particlenet_pf.py')
+ - ('network_option', [])
+ - ('model_prefix', '/lhome/ific/f/fkellere/weaver-benchmark/weaver/output/particlenet_best_epoch_state.pt')
+ - ('num_epochs', 20)
+ - ('steps_per_epoch', None)
+ - ('steps_per_epoch_val', None)
+ - ('optimizer', 'ranger')
+ - ('optimizer_option', [])
+ - ('lr_scheduler', 'flat+decay')
+ - ('load_epoch', None)
+ - ('start_lr', 0.005)
+ - ('batch_size', 1024)
+ - ('use_amp', False)
+ - ('gpus', '0')
+ - ('num_workers', 3)
+ - ('predict', True)
+ - ('predict_output', 'output/particlenet_predict_valid.root')
+ - ('export_onnx', None)
+ - ('io_test', False)
+ - ('copy_inputs', False)
+ - ('log', '')
+ - ('print', False)
+ - ('profile', False)
+[2023-11-25 02:56:14,759] INFO: Running in classification mode
+[2023-11-25 02:56:15,880] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-25 02:56:15,880] INFO: selection: None
+[2023-11-25 02:56:15,880] INFO: test_time_selection: None
+[2023-11-25 02:56:15,880] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-25 02:56:15,880] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-25 02:56:15,880] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-25 02:56:15,880] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-25 02:56:15,880] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-25 02:56:15,880] INFO: label_names: ('_label_',)
+[2023-11-25 02:56:15,881] INFO: observer_names: ()
+[2023-11-25 02:56:15,881] INFO: monitor_variables: ()
+[2023-11-25 02:56:15,890] INFO: Network options: {}
+[2023-11-25 02:56:15,927] INFO: Warning: module FeatureConv is treated as a zero-op.
+[2023-11-25 02:56:15,927] INFO: Warning: module EdgeConvBlock is treated as a zero-op.
+[2023-11-25 02:56:15,927] INFO: Warning: module Dropout is treated as a zero-op.
+[2023-11-25 02:56:15,927] INFO: Warning: module ParticleNet is treated as a zero-op.
+[2023-11-25 02:56:15,927] INFO: Warning: module ParticleNetTagger1Path is treated as a zero-op.
+[2023-11-25 02:56:15,955] INFO: ParticleNetTagger1Path(
+  |0.577 M, 100.000% Params, 0.441 GMac, 100.000% MACs|
+  (pf_conv): FeatureConv(
+    |0.0 M, 0.035% Params, 0.0 GMac, 0.005% MACs|
+    (conv): Sequential(
+      |0.0 M, 0.035% Params, 0.0 GMac, 0.005% MACs|
+      (0): BatchNorm1d(4, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.001% Params, 0.0 GMac, 0.000% MACs|)
+      (1): Conv1d(4, 32, kernel_size=(1,), stride=(1,), bias=False, |0.0 M, 0.022% Params, 0.0 GMac, 0.003% MACs|)
+      (2): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.011% Params, 0.0 GMac, 0.001% MACs|)
+      (3): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.001% MACs|)
+    )
+  )
+  (pn): ParticleNet(
+    |0.577 M, 99.965% Params, 0.441 GMac, 99.995% MACs|
+    (edge_convs): ModuleList(
+      |0.305 M, 52.823% Params, 0.424 GMac, 96.047% MACs|
+      (0): EdgeConvBlock(
+        |0.015 M, 2.575% Params, 0.021 GMac, 4.716% MACs|
+        (convs): ModuleList(
+          |0.012 M, 2.131% Params, 0.02 GMac, 4.456% MACs|
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+          (1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+          (2): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.004 M, 0.710% Params, 0.007 GMac, 1.485% MACs|)
+        )
+        (bns): ModuleList(
+          |0.0 M, 0.067% Params, 0.001 GMac, 0.139% MACs|
+          (0): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+          (2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.046% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.0 GMac, 0.070% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.023% MACs|)
+        )
+        (sc): Conv1d(32, 64, kernel_size=(1,), stride=(1,), bias=False, |0.002 M, 0.355% Params, 0.0 GMac, 0.046% MACs|)
+        (sc_bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.022% Params, 0.0 GMac, 0.003% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.001% MACs|)
+      )
+      (1): EdgeConvBlock(
+        |0.058 M, 10.121% Params, 0.081 GMac, 18.437% MACs|
+        (convs): ModuleList(
+          |0.049 M, 8.523% Params, 0.079 GMac, 17.825% MACs|
+          (0): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+          (1): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+          (2): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.016 M, 2.841% Params, 0.026 GMac, 5.942% MACs|)
+        )
+        (bns): ModuleList(
+          |0.001 M, 0.133% Params, 0.001 GMac, 0.279% MACs|
+          (0): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+          (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+          (2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.093% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.001 GMac, 0.139% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.046% MACs|)
+        )
+        (sc): Conv1d(64, 128, kernel_size=(1,), stride=(1,), bias=False, |0.008 M, 1.420% Params, 0.001 GMac, 0.186% MACs|)
+        (sc_bn): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.0 M, 0.044% Params, 0.0 GMac, 0.006% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.003% MACs|)
+      )
+      (2): EdgeConvBlock(
+        |0.231 M, 40.128% Params, 0.322 GMac, 72.894% MACs|
+        (convs): ModuleList(
+          |0.197 M, 34.091% Params, 0.315 GMac, 71.299% MACs|
+          (0): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+          (1): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+          (2): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False, |0.066 M, 11.364% Params, 0.105 GMac, 23.766% MACs|)
+        )
+        (bns): ModuleList(
+          |0.002 M, 0.266% Params, 0.002 GMac, 0.557% MACs|
+          (0): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+          (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+          (2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.001 GMac, 0.186% MACs|)
+        )
+        (acts): ModuleList(
+          |0.0 M, 0.000% Params, 0.001 GMac, 0.279% MACs|
+          (0): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+          (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+          (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.093% MACs|)
+        )
+        (sc): Conv1d(128, 256, kernel_size=(1,), stride=(1,), bias=False, |0.033 M, 5.682% Params, 0.003 GMac, 0.743% MACs|)
+        (sc_bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.089% Params, 0.0 GMac, 0.012% MACs|)
+        (sc_act): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.006% MACs|)
+      )
+    )
+    (fusion_block): Sequential(
+      |0.173 M, 29.963% Params, 0.017 GMac, 3.925% MACs|
+      (0): Conv1d(448, 384, kernel_size=(1,), stride=(1,), bias=False, |0.172 M, 29.830% Params, 0.017 GMac, 3.899% MACs|)
+      (1): BatchNorm1d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True, |0.001 M, 0.133% Params, 0.0 GMac, 0.017% MACs|)
+      (2): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.009% MACs|)
+    )
+    (fc): Sequential(
+      |0.099 M, 17.179% Params, 0.0 GMac, 0.023% MACs|
+      (0): Sequential(
+        |0.099 M, 17.090% Params, 0.0 GMac, 0.022% MACs|
+        (0): Linear(in_features=384, out_features=256, bias=True, |0.099 M, 17.090% Params, 0.0 GMac, 0.022% MACs|)
+        (1): ReLU(|0.0 M, 0.000% Params, 0.0 GMac, 0.000% MACs|)
+        (2): Dropout(p=0.1, inplace=False, |0.0 M, 0.000% Params, 0.0 GMac, 0.000% MACs|)
+      )
+      (1): Linear(in_features=256, out_features=2, bias=True, |0.001 M, 0.089% Params, 0.0 GMac, 0.000% MACs|)
+    )
+  )
+)
+[2023-11-25 02:56:15,955] INFO: Computational complexity:       0.44 GMac
+[2023-11-25 02:56:15,955] INFO: Number of parameters:           576.71 k
+[2023-11-25 02:56:17,054] INFO: Loading model /lhome/ific/f/fkellere/weaver-benchmark/weaver/output/particlenet_best_epoch_state.pt for eval
+[2023-11-25 02:56:17,069] INFO: Running on test file group  with 17 files:
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_0.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_1.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_10.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_11.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_12.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_13.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_14.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_15.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_16.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_2.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_3.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_4.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_5.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_6.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_7.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_8.root
+.../lhome/ific/f/fkellere/GNN_datasets/PN_original_5mm_all/prep/next_val_9.root
+[2023-11-25 02:56:17,081] INFO: preprocess config: {'method': 'manual', 'data_fraction': None, 'params': None}
+[2023-11-25 02:56:17,081] INFO: selection: None
+[2023-11-25 02:56:17,081] INFO: test_time_selection: None
+[2023-11-25 02:56:17,081] INFO: var_funcs:
+ - ('pf_mask', 'awkward.JaggedArray.ones_like(Part_E)')
+ - ('is_bkg', 'np.logical_not(is_signal)')
+ - ('_label_', 'np.stack([is_signal,is_bkg], axis=1).argmax(1)')
+[2023-11-25 02:56:17,081] INFO: input_names: ('pf_points', 'pf_features', 'pf_mask')
+[2023-11-25 02:56:17,081] INFO: input_dicts:
+ - ('pf_points', ['Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_features', ['Part_E', 'Part_Xbin', 'Part_Ybin', 'Part_Zbin'])
+ - ('pf_mask', ['pf_mask'])
+[2023-11-25 02:56:17,081] INFO: input_shapes:
+ - ('pf_points', (-1, 3, 100))
+ - ('pf_features', (-1, 4, 100))
+ - ('pf_mask', (-1, 1, 100))
+[2023-11-25 02:56:17,081] INFO: preprocess_params:
+ - ('Part_Xbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Ybin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_Zbin', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('Part_E', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+ - ('pf_mask', {'length': 100, 'pad_mode': 'constant', 'center': None, 'scale': 1, 'min': -5, 'max': 5, 'pad_value': 0})
+[2023-11-25 02:56:17,082] INFO: label_names: ('_label_',)
+[2023-11-25 02:56:17,082] INFO: observer_names: ()
+[2023-11-25 02:56:17,082] INFO: monitor_variables: ()
+[2023-11-25 02:56:50,141] INFO: Processed 161061 entries in total (avg. speed 4872.4 entries/s)
+[2023-11-25 02:56:50,141] INFO: Evaluation class distribution: 
+    [(0, 45892), (1, 115169)]
+[2023-11-25 02:56:50,165] ERROR: y should be a 1d array, got an array of shape (161061, 2) instead.
+[2023-11-25 02:56:50,235] INFO: Evaluation metrics: 
+    - roc_auc_score: 
+None
+    - roc_auc_score_matrix: 
+[[0.        0.9788089]
+ [0.        0.       ]]
+    - confusion_matrix: 
+[[0.91521398 0.08478602]
+ [0.04845922 0.95154078]]
+[2023-11-25 02:56:50,235] INFO: [1mTest metric 0.94119[0m
+[2023-11-25 02:56:50,400] INFO: [1mWritten output to output/particlenet_predict_valid.root[0m

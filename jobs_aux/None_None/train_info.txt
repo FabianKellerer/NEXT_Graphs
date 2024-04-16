@@ -1,0 +1,16 @@
+cluster: None
+process: None
+
+max epochs: 400
+early-stopping applied: False
+best epoch: 86
+patience: 10
+batch size: 128
+learning_rate: 0.001
+graph radius: 2.1
+layer cell size: 64
+output layer dropout: 0.1
+
+Training start: 2024-01-14 10:01:36.895705
+Training end:   2024-01-14 12:02:16.059649
+Training time:  2:00:39.163944
