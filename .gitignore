@@ -2,6 +2,11 @@
 *.pt
 *.root
 *.pth
+*.png
+*.txt
+*.out
+*.err
+*.log
 
 __pycache__
 .ipynb_checkpoints
