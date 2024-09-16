@@ -4,22 +4,26 @@ import torch.nn as nn
 from torch_geometric.data import InMemoryDataset, download_url
 from torch_geometric.loader import DataLoader
 import torch_geometric.transforms as T
+import GraphTransforms as Tr
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 from tqdm.notebook import tqdm
 import numpy as np
 import pandas as pd
 import GraphNN as G
 import GraphDataSets as D
+import networkx as nx
 from torch_geometric.data import Data, DataListLoader, Batch
 from torch.utils.data import random_split
 import os.path as osp
-from sklearn.metrics import roc_curve, auc
+from torch_geometric.utils import to_networkx
 import matplotlib.pyplot as plt
 import mplhep as hep
 import argparse
 
 parser = argparse.ArgumentParser('Runs the interaction graph neural network')
 parser.add_argument('-d', '--dataset', required=True, type=str, help='Dataset to be used for training (Defined in the GraphNN module).')
+parser.add_argument('-a', '--augment', default=False, type=bool, help='Whether to apply data augmentation during training')
+parser.add_argument('-k', '--knn', default=0, type=int, help='If not zero, transforms the graphs to k-nearest neighbors')
 parser.add_argument('-n', '--n_epochs', type=int, default=300, help='Number of training epochs (if early stopping condition is not met')
 parser.add_argument('-hl', '--hidden_layers', type=int, default=128, help='Number of hidden layers (same for edge, node and global blocks)')
 parser.add_argument('-l', '--learning_rate', type=float, default=1e-2, help='Learning rate')
@@ -79,11 +83,25 @@ def collate(items):
     return Batch.from_data_list(l)
 
 
-def Run_IN(dataset_name, n_epochs, hidden, LR, batch_size):
+def Run_IN(dataset_name, transform, knn, n_epochs, hidden, LR, batch_size):
     
     DS = getattr(D,dataset_name)
     #transform = T.Compose([T.RadiusGraph(r=1.1), T.NormalizeScale()])
-    dataset   = DS(root='./GNN_datasets/')#, pre_transform=transform)
+    if transform:
+        dataset = DS(root='./GNN_datasets/',transform=Tr.RandomNodeSplit())#, pre_transform=transform)
+        dataset_name += '_T'
+    elif knn > 0:
+        dataset = DS(root='./GNN_datasets/',transform=T.KNNGraph(k=k))
+    else:
+        dataset = DS(root='./GNN_datasets/')
+
+    #1 track cut:
+    #NFragments = []
+    #for i in tqdm(range(len(dataset))):
+    #    Graph = to_networkx(dataset[i], to_undirected=True)
+    #    NFragments.append(len(list(nx.connected_components(Graph))))
+    #dataset = dataset[np.array(NFragments)==1]
+    ###############
     
     graph_dataset = dataset[:int(2/3*len(dataset))]
     test_dataset  = dataset[int(2/3*len(dataset)):]
@@ -176,4 +194,4 @@ def Run_IN(dataset_name, n_epochs, hidden, LR, batch_size):
     store.close()
     
 if __name__ == '__main__':
-    Run_IN(args.dataset, args.n_epochs, args.hidden_layers, args.learning_rate, args.batch_size)
+    Run_IN(args.dataset, args.augment, args.knn, args.n_epochs, args.hidden_layers, args.learning_rate, args.batch_size)

@@ -15,6 +15,7 @@ parser.add_argument('-o', '--outfile', required=True, type=str, help='Output fil
 parser.add_argument('-x', '--xbins', default='-210 210 43', type=float, nargs='+', help='X bins (xmin, xmax, Nbins).')
 parser.add_argument('-y', '--ybins', default='-210 210 43', type=float, nargs='+', help='Y bins (ymin, ymax, Nbins).')
 parser.add_argument('-z', '--zbins', default='20  515 100', type=float, nargs='+', help='Z bins (zmin, zmax, Nbins).')
+parser.add_argument('-n', '--norm', default=False, type=bool, help='Broken! Do not use! Whether to normalise the hit positions prior to voxelisation')
 args = parser.parse_args()
 
 
@@ -23,7 +24,7 @@ def energy_corrected(energy, z_min, z_max):
     return energy/(1. - Z_corr_factor*(z_max-z_min))
 
 
-def get_bin_indices(hits, bins, Rmax=180):
+def get_bin_indices(hits, bins, norm, Rmax=180):
     segclass = 'segclass'
     binclass = 'binclass'
     fiducial_cut = (hits.x**2+hits.y**2)<Rmax**2
@@ -33,9 +34,18 @@ def get_bin_indices(hits, bins, Rmax=180):
                  & (hits.z>=binsZ.min()) & (hits.z<=binsZ.max())
 
     hits_act = hits[fiducial_cut & boundary_cut].reset_index(drop = True)
-    xbin = pd.cut(hits_act.x, binsX, labels = np.arange(0, len(binsX)-1)).astype(int)
-    ybin = pd.cut(hits_act.y, binsY, labels = np.arange(0, len(binsY)-1)).astype(int)
-    zbin = pd.cut(hits_act.z, binsZ, labels = np.arange(0, len(binsZ)-1)).astype(int)
+    
+    if norm:
+        xnorm = (event.x-min(event.x))/(max(event.x)-min(event.x))
+        ynorm = (event.y-min(event.y))/(max(event.y)-min(event.y))
+        znorm = (event.z-min(event.z))/(max(event.z)-min(event.z))
+        xbin = pd.cut(xnorm, binsX, labels = np.arange(0, len(binsX)-1)).astype(int)
+        ybin = pd.cut(ynorm, binsY, labels = np.arange(0, len(binsY)-1)).astype(int)
+        zbin = pd.cut(znorm, binsZ, labels = np.arange(0, len(binsZ)-1)).astype(int)
+    else:
+        xbin = pd.cut(hits_act.x, binsX, labels = np.arange(0, len(binsX)-1)).astype(int)
+        ybin = pd.cut(hits_act.y, binsY, labels = np.arange(0, len(binsY)-1)).astype(int)
+        zbin = pd.cut(hits_act.z, binsZ, labels = np.arange(0, len(binsZ)-1)).astype(int)
 
     hits_act = hits_act.assign(xbin=xbin, ybin=ybin, zbin=zbin)
     hits_act.event_id = hits_act.event_id.astype(np.int64)
@@ -86,6 +96,7 @@ def get_bin_indices(hits, bins, Rmax=180):
            'Ypeak':df['Ypeak'].unique()[0],
            'Xrms':df['Xrms'].unique()[0],
            'Yrms':df['Yrms'].unique()[0],
+           'Zrms':df['Zrms'].unique()[0],
            'X':df['x'].mean(),
            'Y':df['y'].mean(),
            'Z':df['z'].mean(),
@@ -97,7 +108,7 @@ def get_bin_indices(hits, bins, Rmax=180):
     out[binclass] = out[binclass].astype(int)
     return out
 
-def Select_cdsts(input_dir, output_file, xbins, ybins, zbins):
+def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
 
     files = [os.path.join(root, name) for root, dirs, files in os.walk(input_dir) for name in files if name.endswith('.h5')]
     files.sort()
@@ -180,6 +191,8 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins):
     voxels_all = voxels_all.groupby('event').filter(lambda x: (x.Y>-210).all() & (x.Y<210).all()).reset_index(drop=True)
     voxels_all = voxels_all.groupby('event').filter(lambda x: (x.Z>20).all() & (x.Z<515).all()).reset_index(drop=True)
     voxels_all = voxels_all.groupby('event').filter(lambda x: not (x['track_id']==1).any())
+    voxels_all = voxels_all.drop('Xrms',axis=1)
+    voxels_all = voxels_all.drop('Yrms',axis=1)
     kdst_all   = kdst_all[kdst_all.nS2==1]
     
     data = pd.merge(trks_all, voxels_all, on='event', how='right')
@@ -201,7 +214,7 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins):
     bins_y = np.linspace(ybins[0],ybins[1],int(ybins[2]))
     bins_z = np.linspace(zbins[0],zbins[1],int(zbins[2]))
     bins  = (bins_x, bins_y, bins_z)
-    data  = get_bin_indices(data,bins)
+    data  = get_bin_indices(data,bins,norm)
     
     data = data.sort_values('event_id')
     eventInfo = data[['event_id', 'binclass']].drop_duplicates().reset_index(drop=True)
@@ -219,4 +232,4 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins):
     
     
 if __name__ == '__main__':
-    Select_cdsts(args.indir, args.outfile, args.xbins, args.ybins, args.zbins)
+    Select_cdsts(args.indir, args.outfile, args.xbins, args.ybins, args.zbins, args.norm)

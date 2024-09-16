@@ -9,6 +9,7 @@ parser = argparse.ArgumentParser('Convert top benchmark h5 datasets to ROOT/awkd
 parser.add_argument('-o', '--outputdir',  required=True, help='The output directory.')
 parser.add_argument('-i', '--inputfile', required=True, help='The input h5 file.')
 parser.add_argument('-c', '--condition', default='all', choices=['train', 'val', 'test', 'all'], help='Create dataset for train/test/val/all.')
+parser.add_argument('-t', '--transform', default=False, type=bool, help='Whether to apply random node splitting')
 parser.add_argument('-m', '--mode', default='uproot', choices=['awkd', 'uproot', 'ROOT'], help='Mode to write ROOT files')
 parser.add_argument('--max-event-size', type=int, default=10000, help='Maximum event size per output file.')
 args = parser.parse_args()
@@ -84,9 +85,23 @@ def store_file_ROOT(res_array_2d, res_array_1d, outpath):
     finally:
         f.Close()
 
+        
+def NodeSplit(event):
+    
+    Splits  = np.random.binomial(1,0.26956,size=len(event)).astype(bool)
+    indices = np.where(Splits==1)[0]
 
+    for n,i in enumerate(indices):
+        E = event.loc[i,'energy']
+        event.loc[i,'energy'] = np.random.uniform(0,E)
+        event = pd.concat([event, event.loc[[i]]])
+        event = event.reset_index(drop=True)
+        event.loc[i,'energy'] = E - event.loc[i,'energy']
+        
+    return event
+        
 
-def convert(input_files, output_file, store_file_func):
+def convert(input_files, output_file, store_file_func, transform):
     #  List all particle and event variables to store. Particle-level variables will be prefixed with `Part_`
     varlist_2d   = ['E', 'Xbin', 'Ybin', 'Zbin']
     varlist_1d   = ['is_signal']
@@ -110,8 +125,12 @@ def convert(input_files, output_file, store_file_func):
                 idx = 0
 
             
-            event = df[df.dataset_id==i]
-            y     = event.binclass[event.xbin.keys()[0]]
+            event = df[df.dataset_id==i].reset_index(drop=True)
+            
+            if transform:
+                event = NodeSplit(event)
+                
+            y = event.binclass[event.xbin.keys()[0]]
             
             # Define the variables
             X  = sum(event.energy*event.xbin)/sum(event.energy)
@@ -142,7 +161,10 @@ def convert(input_files, output_file, store_file_func):
 
 
 if __name__ == '__main__':
-    h  = pd.read_hdf(os.path.join(args.inputfile),'DATASET/Voxels')
+    try:
+        h  = pd.read_hdf(os.path.join(args.inputfile),'DATASET/Voxels')
+    except:
+        h  = pd.read_hdf(os.path.join(args.inputfile))
     c1 = h.dataset_id.unique()[int(len(h.dataset_id.unique())/2)]
     c2 = h.dataset_id.unique()[int(3*len(h.dataset_id.unique())/4)]
 
@@ -168,13 +190,13 @@ if __name__ == '__main__':
         store_file_uproot if args.mode == 'uproot' else \
         store_file_ROOT if args.mode == 'ROOT' else None
     if args.condition == 'train':
-        convert(input_files=[f'train_{filename}'], output_file='next_train', store_file_func=store_file_func)
+        convert(input_files=[f'train_{filename}'], output_file='next_train', store_file_func=store_file_func, transform=args.transform)
     elif args.condition == 'val':
-        convert(input_files=[f'valid_{filename}'], output_file='next_val', store_file_func=store_file_func)
+        convert(input_files=[f'valid_{filename}'], output_file='next_val', store_file_func=store_file_func, transform=args.transform)
     elif args.condition == 'test':
-        convert(input_files=[f'test_{filename}'], output_file='next_test', store_file_func=store_file_func)
+        convert(input_files=[f'test_{filename}'], output_file='next_test', store_file_func=store_file_func, transform=args.transform)
     elif args.condition == 'all':
-        convert(input_files=[f'train_{filename}'], output_file='next_train', store_file_func=store_file_func)
-        convert(input_files=[f'valid_{filename}'], output_file='next_val', store_file_func=store_file_func)
-        convert(input_files=[f'test_{filename}'], output_file='next_test', store_file_func=store_file_func)
+        convert(input_files=[f'train_{filename}'], output_file='next_train', store_file_func=store_file_func, transform=args.transform)
+        convert(input_files=[f'valid_{filename}'], output_file='next_val', store_file_func=store_file_func, transform=args.transform)
+        convert(input_files=[f'test_{filename}'], output_file='next_test', store_file_func=store_file_func, transform=args.transform)
 

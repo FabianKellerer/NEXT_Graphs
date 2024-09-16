@@ -7,6 +7,7 @@
 *.out
 *.err
 *.log
+*.sub
 
 __pycache__
 .ipynb_checkpoints

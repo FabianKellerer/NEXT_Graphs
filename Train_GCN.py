@@ -4,6 +4,7 @@ import torch.nn as nn
 from torch_geometric.data import InMemoryDataset, download_url
 from torch_geometric.loader import DataLoader
 import torch_geometric.transforms as T
+import GraphTransforms as Tr
 from tqdm.notebook import tqdm
 import numpy as np
 import pandas as pd
@@ -29,7 +30,7 @@ cluster = os.environ.get('cluster_var')
 process = os.environ.get('process_var')
 home_path = './jobs_aux/'
 save_path = f'{home_path}{cluster}_{process}/'
-os.system(f'mkdir -p {save_path}')
+#os.system(f'mkdir -p {save_path}')
 traininfo_path = f'{save_path}train_info.txt'
 with open(traininfo_path, 'w') as f:
     f.write(f'cluster: {cluster}\n')
@@ -47,8 +48,9 @@ start_time = datetime.now() #.strftime('%Y/%m/%d %H:%M:%S')
 #          SETTINGS         #
 #############################
 
-# Graph dataset building radius
-radius = 2.1
+# Graph dataset
+dataset_name = 'RecoBig_all_10mm_R2'
+transform = True
 # Layers cell size
 hidden  = 64
 # Output layer dropout
@@ -56,8 +58,8 @@ batch_size = 128
 learning_rate = 1e-3
 n_epochs = 400
 dropout = 0.1
-early_stop = False
-patience = 10
+early_stop = True
+patience = 20
 
 #############################
 
@@ -67,7 +69,12 @@ patience = 10
 # elif radius==2.1:
 #     dataset   = GD.Truth_SB50_5mm_R2(root='/lhome/ific/a/antalo/TFG_NEXT/workarea/GNN_datasets/R2/')
 
-dataset   = G.RecoBig_all_15mm_R2(root='./GNN_datasets/')
+DS      = getattr(G,dataset_name)
+if transform:
+    dataset = DS(root='./GNN_datasets/',transform=Tr.RandomNodeSplit())#, pre_transform=transform)
+    dataset_name += '_T'
+else:
+    dataset = DS(root='./GNN_datasets/')
 
 print('Graph dataset building/importing successful.')
 
@@ -171,7 +178,7 @@ for epoch in t:
 
     if valid_loss < best_valid_loss:
         best_valid_loss = valid_loss
-        modpath = osp.join('GraphConv_15mm_best.pth')
+        modpath = osp.join(f'GraphConv_{dataset_name}_best.pth')
         print('New best model saved to:',modpath)
         torch.save(model.state_dict(),modpath)
         stale_epochs = 0
@@ -230,7 +237,7 @@ end_time = datetime.now() #.strftime('%Y/%m/%d %H:%M:%S')
 
 print('Evaluation successful.')
 
-store=pd.HDFStore(f'{save_path}Loss_GCN_15mm.h5')
+store=pd.HDFStore(f'Loss_GCN_{dataset_name}.h5')
 store["loss_train"]   = pd.DataFrame(loss_train, columns = ['Epoch'])
 store["loss_valid"]   = pd.DataFrame(loss_valid, columns = ['Epoch'])
 store["y_train"]    = pd.DataFrame(y_train, columns = ['Event'])
@@ -249,7 +256,6 @@ with open(traininfo_path, 'a') as f:
     f.write(f'patience: {patience}\n')
     f.write(f'batch size: {batch_size}\n')
     f.write(f'learning_rate: {learning_rate}\n')
-    f.write(f'graph radius: {radius}\n')
     f.write(f'layer cell size: {hidden}\n')
     f.write(f'output layer dropout: {dropout}')
 
