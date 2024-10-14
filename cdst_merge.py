@@ -186,9 +186,6 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
     if MC:
         parts_all  = pd.concat(frames_parts, ignore_index=True)
         
-    #### TEMPORARY:
-    voxels_all['Ep'] *= 1.6/4.5
-    voxels_all['Ec'] *= 1.6/4.5
     
     voxels_all = voxels_all.groupby('event').filter(lambda x: x['Ep'].sum()>=1.4)
     voxels_all = voxels_all.groupby('event').filter(lambda x: x['Ep'].sum()<=1.8)
