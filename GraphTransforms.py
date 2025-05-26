@@ -33,15 +33,15 @@ class RandomNodeSplit(BaseTransform):
         NodeList[indices, 0] = new_values
         new_nodes = torch.stack([e - new_values, NodeList[indices, 1], NodeList[indices, 2], NodeList[indices, 3]], dim=1)
         NodeList = torch.cat([NodeList, new_nodes])
-        ratios = new_values / e
 
         # Edge modifications
         for n, i in enumerate(indices):
 
-            mask_B = ((B == i) & (np.random.random(B.shape) < 0.6)).bool()
+            mask_B = ((B == i)).bool()# & (np.random.random(B.shape) < 0.6)).bool()
 
             new_A = torch.cat([B[mask_B] + N + n - i, torch.tensor([len(data.x) + n])])
             new_B = torch.cat([A[mask_B], torch.tensor([i])])
+            
             A = torch.cat([A, new_A, new_B])
             B = torch.cat([B, new_B, new_A])
 
@@ -119,5 +119,74 @@ class AddEdgeEdiff(BaseTransform):
         edge_attr = torch.unsqueeze(data.x[nodes_in,0]-data.x[nodes_out,0],1)
 
         data = Data(u=data.u, pos=data.pos, x=data.x, y=data.y, edge_index=data.edge_index, edge_attr=edge_attr)
+            
+        return data
+    
+@functional_transform('random_node_deletion')
+class RandomNodeDeletion(BaseTransform):
+    
+    def __init__(self, p: float = 0.14) -> None:
+        self.p = p
+
+    def forward(self, data: Data) -> Data:
+        assert data.edge_index is not None
+
+        N = len(data.x)
+        NodeList = data.x.clone()
+        A, B = data.edge_index
+        E = data.edge_attr.clone()
+
+        Splits = torch.from_numpy(np.random.binomial(1, self.p, size=N).astype(bool))
+        indices = torch.where(Splits)[0]
+
+        # Create a mask to keep track of nodes to be deleted
+        mask = torch.ones(N, dtype=bool)
+        mask[indices] = False
+
+        #Redistribute energy of nodes to be deleted among their neighbours
+        for idx in indices:
+            result = B[A == idx][~torch.isin(B[A == idx], indices)]
+            NodeList[result, 0] += NodeList[idx, 0] / len(result)
+
+        #Delete nodes
+        NodeList = NodeList[mask]
+
+        # Update edge_index
+        maskI = ~torch.isin(A, indices) & ~torch.isin(B, indices)
+        A = A[maskI]
+        B = B[maskI]
+        unique_values = torch.unique(A, sorted=True)
+        value_map = {val.item(): idx for idx, val in enumerate(unique_values)}
+        A = torch.tensor([value_map[val.item()] for val in A])
+        B = torch.tensor([value_map[val.item()] for val in B])
+
+        # Update edge_attr
+        E = np.reshape(NodeList[A,0]-NodeList[B,0],(len(A),1))
+
+        data = Data(u=data.u, pos=data.pos[mask], x=NodeList, y=data.y, edge_index=torch.tensor(np.array([np.array(A),np.array(B)])), edge_attr=E)
+            
+        return data
+    
+
+
+@functional_transform('fully_connected')
+class FullyConnected(BaseTransform):
+    
+    def __init__(self) -> None:
+        super().__init__()
+
+    def forward(self, data: Data) -> Data:
+        assert data.edge_index is not None
+
+        N = len(data.x)
+
+        # Create numpy arrays A and B
+        A = np.repeat(np.arange(N), N - 1)
+        B = np.concatenate([np.delete(np.arange(N), i) for i in range(N)])
+
+        # Update edge_attr
+        edge_attr = torch.unsqueeze(data.x[A,0]-data.x[B,0],1)
+
+        data = Data(u=data.u, pos=data.pos, x=data.x, y=data.y, edge_index=torch.tensor(np.array([A,B])), edge_attr=edge_attr)
             
         return data

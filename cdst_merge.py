@@ -15,6 +15,7 @@ parser.add_argument('-o', '--outfile', required=True, type=str, help='Output fil
 parser.add_argument('-x', '--xbins', default='-210 210 43', type=float, nargs='+', help='X bins (xmin, xmax, Nbins).')
 parser.add_argument('-y', '--ybins', default='-210 210 43', type=float, nargs='+', help='Y bins (ymin, ymax, Nbins).')
 parser.add_argument('-z', '--zbins', default='20  515 100', type=float, nargs='+', help='Z bins (zmin, zmax, Nbins).')
+parser.add_argument('-r', '--rmax', default=180, type=float, help='Radial fiducial cut')
 parser.add_argument('-n', '--norm', default=False, type=bool, help='Broken! Do not use! Whether to normalise the hit positions prior to voxelisation')
 args = parser.parse_args()
 
@@ -24,7 +25,7 @@ def energy_corrected(energy, z_min, z_max):
     return energy/(1. - Z_corr_factor*(z_max-z_min))
 
 
-def get_bin_indices(hits, bins, norm, Rmax=180):
+def get_bin_indices(hits, bins, norm, Rmax):
     segclass = 'segclass'
     binclass = 'binclass'
     fiducial_cut = (hits.x**2+hits.y**2)<Rmax**2
@@ -108,13 +109,31 @@ def get_bin_indices(hits, bins, norm, Rmax=180):
     out[binclass] = out[binclass].astype(int)
     return out
 
-def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
+# Unused, from John. Defines Signal as conv events that have Xe isotopes. Does not work in our case for some reason.
+def Determine_if_signal(MC_df):
+    """
+    Function that collects Tl208 signal events (identified with Xe ions created in 'conv' processes)
+    """
+    # check if event has conv process
+    if len(MC_df[MC_df.creator_proc == 'conv'])==0:
+        return 0
+    else:
+        # check if event has Xe isotope
+        lst = MC_df.particle_name.to_list()
+        # truncate to only take 'Xe' as the input
+        short_lst = []
+        [short_lst.append(i[0:2]) for i in lst]
+        if "Xe" in short_lst:
+            return 1
+    return 0
 
-    files = [os.path.join(root, name) for root, dirs, files in os.walk(input_dir) for name in files if name.endswith('.h5')]
+
+def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, rmax, norm):
+
+    files = [os.path.join(root, name) for root, dirs, files in os.walk(input_dir) for name in files if name.endswith('.h5') and '_6700' not in name][:10]
     files.sort()
 
     frames_trks   = []
-    frames_dstsum = []
     frames_kdst   = []
     frames_voxels = []
     frames_parts  = []
@@ -128,12 +147,11 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
         if os.path.exists(file):
             kdst   = load_dst(file, group='DST',      node='Events')
             trks   = load_dst(file, group='Tracking', node='Tracks')
-            dstsum = load_dst(file, group='Summary' , node='Events')
             voxels = load_dst(file, group='CHITS',    node='highTh')
             
             try:
                 parts = mio.load_mcparticles_df(file)
-                parts = parts.reset_index()[['event_id','particle_name']]
+                parts = parts.reset_index()[['event_id','particle_name','creator_proc']]
                 parts = parts.rename(columns={'event_id':'event'})
                 MC    = True
             except:
@@ -146,17 +164,11 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
             #print(f'tracks: {trks.event.nunique()}')
             frames_trks.append(trks)
 
-            dstsum['eventID'] = dstsum.event          
-            dstsum.event = dstsum.event + max_evt
-            run_column = [run] * len(dstsum)
-            dstsum['run_number'] = run_column
-            #print(f'kdst: {dstsum.event.nunique()}')
-            frames_dstsum.append(dstsum)
-
             kdst['eventID'] = kdst.event          
             kdst.event = kdst.event + max_evt
             run_column = [run] * len(kdst)
             kdst['run_number'] = run_column
+            kdst = kdst.drop(['time','s1_peak','s2_peak','nS1','S1w','S1h','S1e','S1t','S2w','S2h','S2e','S2q','S2t','Nsipm','DT','R','Phi','X','Y','Z'], axis = 1)
             #print(f'kdst: {kdst.event.nunique()}')
             frames_kdst.append(kdst)
 
@@ -164,6 +176,7 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
             voxels.event = voxels.event + max_evt
             run_column = [run] * len(voxels)
             voxels['run_number'] = run_column
+            voxels = voxels.drop('time', axis = 1)
             #print(f'kdst: {kdst.event.nunique()}')
             frames_voxels.append(voxels)
             
@@ -180,7 +193,6 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
             max_evt = voxels.event.max() + 1
 
     trks_all   = pd.concat(frames_trks, ignore_index=True)
-    dstsum_all = pd.concat(frames_dstsum, ignore_index=True)
     kdst_all   = pd.concat(frames_kdst, ignore_index=True)
     voxels_all = pd.concat(frames_voxels, ignore_index=True)
     if MC:
@@ -189,18 +201,18 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
     
     voxels_all = voxels_all.groupby('event').filter(lambda x: x['Ep'].sum()>=1.4)
     voxels_all = voxels_all.groupby('event').filter(lambda x: x['Ep'].sum()<=1.8)
-    voxels_all = voxels_all.groupby('event').filter(lambda x: ((x.X**2+x.Y**2)<180**2).all()).reset_index(drop=True)
-    voxels_all = voxels_all.groupby('event').filter(lambda x: (x.X>-210).all() & (x.X<210).all()).reset_index(drop=True)
-    voxels_all = voxels_all.groupby('event').filter(lambda x: (x.Y>-210).all() & (x.Y<210).all()).reset_index(drop=True)
-    voxels_all = voxels_all.groupby('event').filter(lambda x: (x.Z>20).all() & (x.Z<515).all()).reset_index(drop=True)
+    voxels_all = voxels_all.groupby('event').filter(lambda x: ((x.X**2+x.Y**2)<rmax**2).all()).reset_index(drop=True)
+    voxels_all = voxels_all.groupby('event').filter(lambda x: (x.X>xbins[0]).all() & (x.X<xbins[1]).all()).reset_index(drop=True)
+    voxels_all = voxels_all.groupby('event').filter(lambda x: (x.Y>ybins[0]).all() & (x.Y<ybins[1]).all()).reset_index(drop=True)
+    voxels_all = voxels_all.groupby('event').filter(lambda x: (x.Z>zbins[0]).all() & (x.Z<zbins[1]).all()).reset_index(drop=True)
     voxels_all = voxels_all.groupby('event').filter(lambda x: not (x['track_id']==1).any())
     voxels_all = voxels_all.drop('Xrms',axis=1)
     voxels_all = voxels_all.drop('Yrms',axis=1)
     kdst_all   = kdst_all[kdst_all.nS2==1]
     
+    
     data = pd.merge(trks_all, voxels_all, on='event', how='right')
-    data = pd.merge(data, kdst_all,   on='event', how='inner', suffixes=(None,'_kdst'))
-    data = pd.merge(data, dstsum_all, on='event', how='left',  suffixes=(None,'_dstsum'))
+    data = pd.merge(data,     kdst_all,   on='event', how='inner', suffixes=(None,'_kdst'))
     
     if MC:
         clf_labels = parts_all.groupby('event').particle_name.apply(lambda x:sum(x=='e+')).astype(int)
@@ -217,7 +229,7 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
     bins_y = np.linspace(ybins[0],ybins[1],int(ybins[2]))
     bins_z = np.linspace(zbins[0],zbins[1],int(zbins[2]))
     bins  = (bins_x, bins_y, bins_z)
-    data  = get_bin_indices(data,bins,norm)
+    data  = get_bin_indices(data, bins, norm, rmax)
     
     data = data.sort_values('event_id')
     eventInfo = data[['event_id', 'binclass']].drop_duplicates().reset_index(drop=True)
@@ -235,4 +247,4 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, norm):
     
     
 if __name__ == '__main__':
-    Select_cdsts(args.indir, args.outfile, args.xbins, args.ybins, args.zbins, args.norm)
+    Select_cdsts(args.indir, args.outfile, args.xbins, args.ybins, args.zbins, args.rmax, args.norm)

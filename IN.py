@@ -68,6 +68,7 @@ def train(model, optimizer, loader, total, batch_size, leave=False):
             batch_output = model(data.x, data.edge_index, data.edge_attr, data.u, data.batch)
         except:
             batch_output = model(data.x, data.edge_index, data.edge_attr, None, data.batch)
+
         batch_loss = xentropy(batch_output, y)
         batch_loss.backward()
         batch_loss_item = batch_loss.item()
@@ -84,7 +85,7 @@ def collate(items):
 
 
 def Run_IN(dataset_name, transform, knn, n_epochs, hidden, LR, batch_size):
-    
+
     DS = getattr(D,dataset_name)
     #transform = T.Compose([T.RadiusGraph(r=1.1), T.NormalizeScale()])
     if transform:
@@ -92,6 +93,7 @@ def Run_IN(dataset_name, transform, knn, n_epochs, hidden, LR, batch_size):
         dataset_name += '_T'
     elif knn > 0:
         dataset = DS(root='./GNN_datasets/',transform=T.KNNGraph(k=k))
+        dataset_name += f'_knn{knn}'
     else:
         dataset = DS(root='./GNN_datasets/')
 
@@ -103,8 +105,10 @@ def Run_IN(dataset_name, transform, knn, n_epochs, hidden, LR, batch_size):
     #dataset = dataset[np.array(NFragments)==1]
     ###############
     
-    graph_dataset = dataset[:int(2/3*len(dataset))]
-    test_dataset  = dataset[int(2/3*len(dataset)):]
+    #graph_dataset = dataset[:int(2/3*len(dataset))]
+    train_dataset = dataset[:int(1/2*len(dataset))]
+    valid_dataset = dataset[int(1/2*len(dataset)):int(3/4*len(dataset))]
+    test_dataset  = dataset[int(3/4*len(dataset)):]
 
     inputs = dataset.num_node_features
     outputs = 2
@@ -124,11 +128,11 @@ def Run_IN(dataset_name, transform, knn, n_epochs, hidden, LR, batch_size):
     optimizer = torch.optim.Adam(model.parameters(), lr = LR)
 
     torch.manual_seed(0)
-    valid_frac = 0.20
-    full_length = len(graph_dataset)
-    valid_num = int(valid_frac*full_length)
+    #valid_frac = 0.20
+    #full_length = len(graph_dataset)
+    #valid_num = int(valid_frac*full_length)
 
-    train_dataset, valid_dataset = random_split(graph_dataset, [full_length-valid_num,valid_num])
+    #train_dataset, valid_dataset = random_split(graph_dataset, [full_length-valid_num,valid_num])
 
 
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
@@ -138,10 +142,6 @@ def Run_IN(dataset_name, transform, knn, n_epochs, hidden, LR, batch_size):
     train_samples = len(train_dataset)
     valid_samples = len(valid_dataset)
     test_samples  = len(test_dataset)
-    print(full_length)
-    print(train_samples)
-    print(valid_samples)
-    print(test_samples)
 
     stale_epochs = 0
     best_valid_loss = 99999

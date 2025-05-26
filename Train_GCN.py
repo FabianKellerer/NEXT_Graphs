@@ -49,8 +49,8 @@ start_time = datetime.now() #.strftime('%Y/%m/%d %H:%M:%S')
 #############################
 
 # Graph dataset
-dataset_name = 'RecoBig_all_10mm_R2'
-transform = True
+dataset_name = 'RecoNew_all_10mm_R2_voxopt_Paolina'
+transform = False
 # Layers cell size
 hidden  = 64
 # Output layer dropout

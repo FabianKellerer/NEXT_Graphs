@@ -54,7 +54,6 @@ labels:
 
 observers:
 - E_tot
-- ID
 
 # weights:
     ### [option 1] use precomputed weights stored in the input files
