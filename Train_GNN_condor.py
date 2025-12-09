@@ -42,23 +42,23 @@ if torch.cuda.is_available():
 
 # Configuración del entrenamiento
 config = {
-    "dataset_name": "RecoNew_all_10mm_KNN20_hitsopt",  # Nombre del dataset a cargar
+    "dataset_name": "RecoNew_all_10mm_FC_hitsopt",  # Nombre del dataset a cargar
     "batch_size": 128,                      # Tamaño del batch
     "learning_rate": 1e-4,                  # Tasa de aprendizaje
-    "n_epochs": 300,                        # Número máximo de épocas
+    "n_epochs": 400,                        # Número máximo de épocas
     "dropout": 0.1,                         # Dropout para regularización
     "dropoutLayer": 0.4,                    # Dropout para cada layer
     "attention_heads": 4,                   # Number of Attention Heads needed for GAT,GATv2,TransformerConv ..
-    "early_stop": True,                     # Activar parada temprana
+    "early_stop": False,                     # Activar parada temprana
     "patience": 20,                         # Número de épocas sin mejora antes de parar
     "convtype": "TransformerConv",          # supported: GCNConv, GraphConv, GATConv, GATv2Conv, TransformerConv  
     "nConvLayers": 4,                       # Number of convolutional layers
     "hidden_dim": 64,                       # Dimensiones ocultas de las capas del modelo
     "doAugmentation": False,                # incluir augmentation (rotaciones de X,Y con angulo = pi/2)
     "useGroupAddRev": False,                # operaciones invertibles reducir consumo memoria
-    "transform": "RandomNodeDeletion",      # Transformación de datos
-    "network_file": "out_job_20250521_130456/best_model.pth",        # Nombre del archivo de red a cargar
-    "Comment": "KNN20 with random node deletion" # Comentario para el entrenamiento
+    "transform": "",      # Transformación de datos
+    "network_file": "",        # Nombre del archivo de red a cargar
+    "Comment": "FC with 400 epochs" # Comentario para el entrenamiento
 }
 
 # Guardar configuración en JSON

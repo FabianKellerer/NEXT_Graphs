@@ -1,5 +1,7 @@
 from torch_geometric.data import InMemoryDataset, download_url
 from torch_geometric.data import Dataset, Data
+from torch.utils.data import random_split
+from tqdm import tqdm
 import torch.nn.functional as F
 import pickle
 import os
@@ -44,7 +46,7 @@ class Base(InMemoryDataset):
         xyz = p[j]
         edge_displacements = np.array(xyz.reshape(-1,1,3) - xyz.reshape(1,-1,3))
         r = np.sqrt(np.sum(edge_displacements**2, axis=-1))
-        row, col = np.where((r > 0) & (r < 2.1))
+        row, col = np.where((r > 0) & (r < 3.1))
         return np.stack([row,col])
     
     def construct_edge_attr(self,event,edge_index):
@@ -61,6 +63,7 @@ class Base(InMemoryDataset):
         data_list = []
         for i, file in enumerate(self.raw_file_names):
             v = pd.read_hdf(file)
+            #v = v.groupby('dataset_id').apply(lambda x: x.sort_values(['xbin', 'ybin', 'zbin'])).reset_index(drop=True)
             G = v.groupby('dataset_id')
             u = G.apply(lambda x: self.construct_center(x))
             p = G.apply(lambda x: self.construct_pos(x))
@@ -224,7 +227,7 @@ class BaseLargeMethods:
         # More efficient distance calculation
         from scipy.spatial.distance import cdist
         dist_matrix = cdist(xyz, xyz)
-        row, col = np.where((dist_matrix > 0) & (dist_matrix < 2.1))
+        row, col = np.where((dist_matrix > 0) & (dist_matrix < 3.1))
 
         if len(row) == 0:
              return np.empty((2, 0), dtype=np.int64)
@@ -598,6 +601,36 @@ class RecoNew_all_10mm_KNN20_hitsopt(Base):
 
 
 
+class RecoNew_all_10mm_KNN30_hitsopt(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=30), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'./Input_Dataframes/RecoNew_HitsOpt/{F}' for F in os.listdir('./Input_Dataframes/RecoNew_HitsOpt')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RecoNew_all_10mm_KNN30_hitsopt.pt']
+    
+
+
+class RecoNew_all_10mm_KNN40_hitsopt(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=40), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'./Input_Dataframes/RecoNew_HitsOpt/{F}' for F in os.listdir('./Input_Dataframes/RecoNew_HitsOpt')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RecoNew_all_10mm_KNN40_hitsopt.pt']
+
+
+
 
 class RecoNew_all_10mm_FC_hitsopt(Base):
     def __init__(self, root, transform=None, pre_transform=Tr.FullyConnected(), pre_filter=None):
@@ -687,6 +720,21 @@ class RealData_R2(Base):
     @property
     def processed_file_names(self):
         return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RealData_R2.pt']
+
+
+
+class RealData_R3(Base):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return ['./Input_Dataframes/cdst_voxel_Data.h5']
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RealData_R3.pt']
     
 
 
@@ -718,6 +766,51 @@ class RealData_KNN20(Base):
     def processed_file_names(self):
         return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RealData_KNN20.pt']
     
+
+
+class RealData_KNN30(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=30), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return ['./Input_Dataframes/cdst_voxel_Data.h5']
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RealData_KNN30.pt']
+    
+
+
+class RealData_KNN40(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=40), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return ['./Input_Dataframes/cdst_voxel_Data.h5']
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RealData_KNN40.pt']
+    
+
+
+class RealData_Strict(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=30), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return ['./Input_Dataframes/cdst_voxel_DataStrict.h5']
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RealData_Strict.pt']
+
 
 
 class RealData_FC(Base):
@@ -810,6 +903,22 @@ class TrueDataSignal(Base):
         return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TrueDataSignal.pt']
     
 
+
+
+class SingleEscapeMC(Base):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return ['./Input_Dataframes/SingleEscapeMC.h5']
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/SingleEscapeMC.pt']
+    
+
     
     
 class Sensim(Base):
@@ -893,6 +1002,37 @@ class Test(Base):
 
 
 
+class RandomSample5Mminus750k(Base):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None, fold=0):
+        self.fold = fold
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'./Input_Dataframes/RecoNew_HitsOpt/{F}' for F in os.listdir('./Input_Dataframes/RecoNew_HitsOpt')])
+
+    @property
+    def processed_file_names(self):
+        return [f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSample5Mminus750k_fold{self.fold}.pt']
+    
+    def process(self):
+        dataset = LargeNEWMC_LMDB(root='/lustre/ific.uv.es/ml/ific108/jrenner/GNN_datasets_largeMC_175_radial_nonStrict')
+        indices = torch.arange(len(dataset))
+        A, B = random_split(indices, [1500000, len(dataset)-1500000])
+        data_list = []
+        data_list += [dataset[i] for i in A]
+        store = pd.HDFStore(f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSample5Mminus750k_fold{self.fold}.h5')
+        store["Indices"] = pd.DataFrame(np.array(A), columns=["Indices"])
+        store.close()
+
+        data, slices = InMemoryDataset.collate(data_list)
+
+        torch.save((data, slices), f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSample5Mminus750k_fold{self.fold}.pt')
+
+
+
+
 class TestBIG(Base):
     def __init__(self, root, transform=None, pre_transform=None, pre_filter=None, length=25000):
         self.length = length
@@ -940,7 +1080,7 @@ class TestBIG(Base):
 
 
 class TestBIG175(Base):
-    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None, length=25000):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None, length=750000):
         self.length = length
         super().__init__(root, transform, pre_transform, pre_filter)
         self.data, self.slices = torch.load(self.processed_paths[0])
@@ -981,8 +1121,175 @@ class TestBIG175(Base):
         torch.save((data, slices), self.processed_paths[0])
 
 
+
+class TestBIG175R2(Base):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG175R2.pt']
+    
+
+
+class TestBIG175R3(Base):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG175R3.pt']
+    
+
+
+class TestBIG175R3strict(Base):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_StrictVox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_StrictVox')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG175R3strict.pt']
+    
+
+
+class TestBIG175KNN6(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=6), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG175KNN6.pt']
+    
+
+
+class TestBIG175KNN10(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=10), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG175KNN10.pt']
+    
+
+
+
+class TestBIG175KNN20(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=20), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG175KNN20.pt']
+
+
+
+class TestBIG175KNN30(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=30), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG175KNN30.pt']
+    
+
+
+class TestBIG175KNN40(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=40), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG175KNN40.pt']
+    
+
+
+
+
+class TestBIG175FC(Base):
+    def __init__(self, root, transform=None, pre_transform=Tr.FullyConnected(), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_Varvox')])[:40]
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG175FC.pt']
+
+
         
+
+
+class BIGsample_KNN30_r175_strictvox(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=30), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_StrictVox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_StrictVox')])
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/BIGsample_KNN30_r175_strictvox.pt']
+
+
         
+class UnorderedLarge_strict(Base):
+    def __init__(self, root, transform=None, pre_transform=T.Compose([T.KNNGraph(k=30), T.ToUndirected(), Tr.AddEdgeEdiff()]), pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+    @property
+    def raw_file_names(self):
+        return np.sort([f'/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_StrictVox/{F}' for F in os.listdir('/lhome/ific/f/fkellere/NEXT_Graphs/Input_Dataframes/BigSample_175_StrictVox')])
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/BIGsample_KNN30_r175_strictvox.pt']
+
+
+
         
 class DataMCmix(Base):
     def __init__(self, root, transform=None, pre_transform=None, pre_filter=None):
@@ -1465,6 +1772,7 @@ class LargeNEWMC_LMDB(Dataset, BaseLargeMethods): # Inherit from Dataset and Bas
         # Check if processing is needed
         # Processing is needed if the processed dir doesn't exist,
         # or if the LMDB file or metadata file is missing.
+        print(f"Processed files check at {self.processed_dir}...")
         processing_needed = not os.path.exists(self.processed_dir) or \
                             not os.path.exists(self.lmdb_path) or \
                             not os.path.exists(self.metadata_path)
@@ -1598,8 +1906,8 @@ class LargeNEWMC_LMDB(Dataset, BaseLargeMethods): # Inherit from Dataset and Bas
                     p = G.apply(lambda x: self.construct_pos(x))
                     n = G.apply(lambda x: self.construct_nodes(x, u))
                     y_series = G.binclass.first() # Get labels for all groups in file
-                    # e = G.apply(lambda x: self.construct_edge_indices(x, p))  # not needed for KNN transform
-                    # a = G.apply(lambda x: self.construct_edge_attr(x, e))     # not needed for KNN transform
+                    e = G.apply(lambda x: self.construct_edge_indices(x, p))  # not needed for KNN transform
+                    a = G.apply(lambda x: self.construct_edge_attr(x, e))     # not needed for KNN transform
                 except Exception as e:
                     print(f"Error during graph component construction for file {raw_path}: {e}", file=sys.stderr)
                     sys.stderr.flush()
@@ -1624,9 +1932,9 @@ class LargeNEWMC_LMDB(Dataset, BaseLargeMethods): # Inherit from Dataset and Bas
                         # --- End Check ---
 
                         graph_y = torch.tensor(y_series[dataset_id], dtype=torch.long) # Ensure LongTensor for CrossEntropyLoss
-                        # graph_edge_index = torch.from_numpy(e[dataset_id]) # Convert edge index numpy array, not needed for KNN
+                        graph_edge_index = torch.from_numpy(e[dataset_id]) # Convert edge index numpy array, not needed for KNN
                         graph_x = torch.tensor(n[dataset_id]).float()
-                        # graph_edge_attr = torch.tensor(a[dataset_id]).float() # not needed for KNN
+                        graph_edge_attr = torch.tensor(a[dataset_id]).float() # not needed for KNN
 
                         # --- Data Validation ---
                         # num_nodes = graph_x.shape[0]
@@ -1647,8 +1955,8 @@ class LargeNEWMC_LMDB(Dataset, BaseLargeMethods): # Inherit from Dataset and Bas
                             pos=torch.tensor(p[dataset_id]).float(),
                             x=graph_x,
                             y=graph_y,
-                            #edge_index=graph_edge_index,
-                            #edge_attr=graph_edge_attr,
+                            edge_index=graph_edge_index,
+                            edge_attr=graph_edge_attr,
                             # Store original id for reference if needed, but not strictly necessary for LMDB key
                             original_dataset_id=torch.tensor(dataset_id)
                         )
