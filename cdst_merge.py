@@ -15,7 +15,7 @@ parser.add_argument('-o', '--outfile', required=True, type=str, help='Output fil
 parser.add_argument('-x', '--xbins', default='-210 210 43', type=float, nargs='+', help='X bins (xmin, xmax, Nbins).')
 parser.add_argument('-y', '--ybins', default='-210 210 43', type=float, nargs='+', help='Y bins (ymin, ymax, Nbins).')
 parser.add_argument('-z', '--zbins', default='20  515 100', type=float, nargs='+', help='Z bins (zmin, zmax, Nbins).')
-parser.add_argument('-r', '--rmax', default=180, type=float, help='Radial fiducial cut')
+parser.add_argument('-r', '--rmax', default=175, type=float, help='Radial fiducial cut')
 parser.add_argument('-n', '--norm', default=False, type=bool, help='Broken! Do not use! Whether to normalise the hit positions prior to voxelisation')
 args = parser.parse_args()
 
@@ -130,7 +130,7 @@ def Determine_if_signal(MC_df):
 
 def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, rmax, norm):
 
-    files = [os.path.join(root, name) for root, dirs, files in os.walk(input_dir) for name in files if name.endswith('.h5') and '_6700' not in name][:10]
+    files = [os.path.join(root, name) for root, dirs, files in os.walk(input_dir) for name in files if name.endswith('.h5')]
     files.sort()
 
     frames_trks   = []
@@ -198,17 +198,23 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, rmax, norm):
     if MC:
         parts_all  = pd.concat(frames_parts, ignore_index=True)
         
-    
+    Nevent_total = voxels_all['event'].nunique()
+    print(f'Total number of events before cuts: {Nevent_total}')
     voxels_all = voxels_all.groupby('event').filter(lambda x: x['Ep'].sum()>=1.4)
     voxels_all = voxels_all.groupby('event').filter(lambda x: x['Ep'].sum()<=1.8)
+    print(f'Number of events after energy cut: {voxels_all["event"].nunique()}')
     voxels_all = voxels_all.groupby('event').filter(lambda x: ((x.X**2+x.Y**2)<rmax**2).all()).reset_index(drop=True)
+    print(f'Number of events after radial cut: {voxels_all["event"].nunique()}')
     voxels_all = voxels_all.groupby('event').filter(lambda x: (x.X>xbins[0]).all() & (x.X<xbins[1]).all()).reset_index(drop=True)
     voxels_all = voxels_all.groupby('event').filter(lambda x: (x.Y>ybins[0]).all() & (x.Y<ybins[1]).all()).reset_index(drop=True)
     voxels_all = voxels_all.groupby('event').filter(lambda x: (x.Z>zbins[0]).all() & (x.Z<zbins[1]).all()).reset_index(drop=True)
+    print(f'Number of events after fiducial cuts: {voxels_all["event"].nunique()}')
     voxels_all = voxels_all.groupby('event').filter(lambda x: not (x['track_id']==1).any())
+    print(f'Number of events after single track cut: {voxels_all["event"].nunique()}')
     voxels_all = voxels_all.drop('Xrms',axis=1)
     voxels_all = voxels_all.drop('Yrms',axis=1)
     kdst_all   = kdst_all[kdst_all.nS2==1]
+    print(f'Number of events after single S2 cut: {voxels_all["event"].nunique()}')
     
     
     data = pd.merge(trks_all, voxels_all, on='event', how='right')
@@ -219,8 +225,8 @@ def Select_cdsts(input_dir, output_file, xbins, ybins, zbins, rmax, norm):
         clf_labels.name = 'binclass'
         data = pd.merge(data, clf_labels, on='event', how='left')
         data = data[~pd.isna(data.binclass)]
-    else:
-        data['Ec'] = energy_corrected(data.Ec, data.z_min, data.z_max)*1.6/1.66757358
+    #else:
+    #    data['Ec'] = energy_corrected(data.Ec, data.z_min, data.z_max)*1.6/1.66757358
     
     data = data.rename(columns={'energy':'trk_energy'})
     data = data.rename(columns={'X':'x','Y':'y','Z':'z','event':'event_id','Ec':'energy'})
