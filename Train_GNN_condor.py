@@ -42,31 +42,32 @@ if torch.cuda.is_available():
 
 # Configuración del entrenamiento
 config = {
-    "dataset_name": "RecoNew_all_10mm_FC_hitsopt",  # Nombre del dataset a cargar
-    "batch_size": 128,                      # Tamaño del batch
+    "dataset_name": "RandomSampleFrom5M",      # Nombre del dataset a cargar
+    "batch_size": 64,                      # Tamaño del batch
     "learning_rate": 1e-4,                  # Tasa de aprendizaje
     "n_epochs": 400,                        # Número máximo de épocas
     "dropout": 0.1,                         # Dropout para regularización
     "dropoutLayer": 0.4,                    # Dropout para cada layer
     "attention_heads": 4,                   # Number of Attention Heads needed for GAT,GATv2,TransformerConv ..
-    "early_stop": False,                     # Activar parada temprana
+    "early_stop": False,                    # Activar parada temprana
     "patience": 20,                         # Número de épocas sin mejora antes de parar
     "convtype": "TransformerConv",          # supported: GCNConv, GraphConv, GATConv, GATv2Conv, TransformerConv  
     "nConvLayers": 4,                       # Number of convolutional layers
-    "hidden_dim": 64,                       # Dimensiones ocultas de las capas del modelo
+    "hidden_dim": 128,                       # Dimensiones ocultas de las capas del modelo
+    "useAdamW": True,                       # Usar AdamW en lugar de Adam
     "doAugmentation": False,                # incluir augmentation (rotaciones de X,Y con angulo = pi/2)
     "useGroupAddRev": False,                # operaciones invertibles reducir consumo memoria
-    "transform": "",      # Transformación de datos
-    "network_file": "",        # Nombre del archivo de red a cargar
-    "Comment": "FC with 400 epochs" # Comentario para el entrenamiento
+    "transform": "",                        # Transformación de datos
+    "network_file": "",                     # Nombre del archivo de red a cargar
+    "Comment": "750k R3 TransformerConv more hidden dims"              # Comentario para el entrenamiento
 }
 
 # Guardar configuración en JSON
 with open(os.path.join(save_path, "config.json"), "w") as f:
     json.dump(config, f, indent=4)
 
-if not os.path.exists('./Input_Dataframes/MC_dataset_Marija_10mm_all.h5'):
-    raise FileNotFoundError("El archivo de dataset no existe en la ruta especificada.")
+#if not os.path.exists('./Input_Dataframes/MC_dataset_Marija_10mm_all.h5'):
+#    raise FileNotFoundError("El archivo de dataset no existe en la ruta especificada.")
 print('****************** Settings **********************')
 print('Batch size:', config['batch_size'])
 print('Learning rate:', config['learning_rate'])
@@ -95,7 +96,9 @@ except AttributeError:
         transform = True
         dataset = DatasetClass(root='./GNN_datasets/',transform=Transform)
     else:
-        dataset = DatasetClass(root='./')
+        dataset = DatasetClass(root='/lustre/ific.uv.es/ml/ific108/GNN_datasets', topology=['R',3.1], length=750000)#,
+                               #pre_transform=T.Compose([T.KNNGraph(k=30), T.ToUndirected(), Tr.AddEdgeEdiff()]))
+        #dataset = DatasetClass(root='/lustre/ific.uv.es/ml/ific108/GNN_datasets')
     
 full_length = len(dataset)
 print('dataset successfully loaded!')
@@ -185,7 +188,7 @@ model = GNN(
     dropout=config['dropout'],
     dropoutLayer=config['dropoutLayer'],
     heads=config['attention_heads'],
-    edge_dim=dataset.edge_attr.size(1),
+    edge_dim=1,#dataset.edge_attr.size(1),
     num_layers=config['nConvLayers']
     #use_groupaddrev=config['useGroupAddRev'],
     #num_groups=2
@@ -198,7 +201,31 @@ try:
 except:
     print('No model loaded!')
 
-optimizer = torch.optim.Adam(model.parameters(), lr=config['learning_rate'])
+weight_decay_value = 0.01
+if config['useAdamW']:
+  from torch.optim import AdamW
+  decay_params = []
+  no_decay_params = []
+  for name, param in model.named_parameters():
+    # No aplicamos weight decay a biases NI a normalizaciones
+    if "bias" in name or "norm" in name or "LayerNorm" in name or "bn" in name:
+      no_decay_params.append(param)
+    else:
+      decay_params.append(param)
+  optimizer = AdamW(
+    [
+      {"params": decay_params, "weight_decay": weight_decay_value},
+      {"params": no_decay_params, "weight_decay": 0.0},
+    ],
+    lr=config['learning_rate'])
+else:
+  optimizer = torch.optim.Adam(
+    model.parameters(),
+    lr=config['learning_rate'],
+    weight_decay=0.0
+  )
+
+
 criterion = nn.CrossEntropyLoss(reduction='mean')
 
 # Funciones auxiliares
@@ -250,6 +277,8 @@ for epoch in range(config['n_epochs']):
     print(f"Train Loss = {train_loss:.4f}, Valid Loss = {valid_loss:.4f}")
     loss_train.append(train_loss)
     loss_valid.append(valid_loss)
+
+    torch.save(model.state_dict(), f"{save_path}/epoch_{epoch + 1}_model.pth")
 
     if valid_loss < best_loss:
         best_loss = valid_loss

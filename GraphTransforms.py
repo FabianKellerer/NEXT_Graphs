@@ -190,3 +190,26 @@ class FullyConnected(BaseTransform):
         data = Data(u=data.u, pos=data.pos, x=data.x, y=data.y, edge_index=torch.tensor(np.array([A,B])), edge_attr=edge_attr)
             
         return data
+    
+@functional_transform('RadiusGraph') # RadiusGraph
+class RadiusGraph(BaseTransform):
+
+    def __init__(self, R: float = 3.1) -> None:
+        self.R = R
+
+    def forward(self, data: Data) -> Data:
+        assert data.edge_index is not None
+
+        xyz = data.pos.clone().numpy()
+        edge_displacements = np.array(xyz.reshape(-1,1,3) - xyz.reshape(1,-1,3))
+        r = np.sqrt(np.sum(edge_displacements**2, axis=-1))
+        row, col = np.where((r > 0) & (r < self.R))
+
+        edge_index = np.stack([row,col])
+
+        # Update edge_attr
+        edge_attr = torch.unsqueeze(data.x[edge_index[0],0]-data.x[edge_index[1],0],1)
+
+        data = Data(u=data.u, pos=data.pos, x=data.x, y=data.y, edge_index=torch.tensor(edge_index), edge_attr=edge_attr)
+            
+        return data

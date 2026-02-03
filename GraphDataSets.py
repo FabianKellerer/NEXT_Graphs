@@ -39,14 +39,17 @@ class Base(InMemoryDataset):
         if dZ==0:
             dZ=1
         n     = event.xbin.keys()[0]
-        return np.array([event.energy/E,(event.xbin-u[j][0][0])/dX,(event.ybin-u[j][0][1])/dY,(event.zbin-u[j][0][2])/dZ]).T
+        return np.array([event.energy/E,
+                         (event.xbin-u[j][0][0])/dX,
+                         (event.ybin-u[j][0][1])/dY,
+                         (event.zbin-u[j][0][2])/dZ]).T
 
-    def construct_edge_indices(self,event,p):
+    def construct_edge_indices(self,event,p,R=1.1):
         j   = int(np.mean(event.dataset_id))
         xyz = p[j]
         edge_displacements = np.array(xyz.reshape(-1,1,3) - xyz.reshape(1,-1,3))
         r = np.sqrt(np.sum(edge_displacements**2, axis=-1))
-        row, col = np.where((r > 0) & (r < 3.1))
+        row, col = np.where((r > 0) & (r < R))
         return np.stack([row,col])
     
     def construct_edge_attr(self,event,edge_index):
@@ -112,7 +115,10 @@ class BaseLarge(Dataset):
         if dZ==0:
             dZ=1
         n     = event.xbin.keys()[0]
-        return np.array([event.energy/E,(event.xbin-u[j][0][0])/dX,(event.ybin-u[j][0][1])/dY,(event.zbin-u[j][0][2])/dZ]).T
+        return np.array([event.energy/E,
+                         (event.xbin-u[j][0][0])/dX,
+                         (event.ybin-u[j][0][1])/dY,
+                         (event.zbin-u[j][0][2])/dZ]).T
 
     def construct_edge_indices(self,event,p):
         j   = int(np.mean(event.dataset_id))
@@ -707,6 +713,20 @@ class RealData_R1(Base):
     def processed_file_names(self):
         return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RealData_R1.pt']
     
+
+class RealData_R1(Base):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None):
+        super().__init__(root, transform, pre_transform, pre_filter)
+        self.data, self.slices = torch.load(self.processed_paths[0])
+
+    @property
+    def raw_file_names(self):
+        return ['./Input_Dataframes/cdst_voxel_Data.h5']
+
+    @property
+    def processed_file_names(self):
+        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/RealData_R1.pt']
+
     
 class RealData_R2(Base):
     def __init__(self, root, transform=None, pre_transform=None, pre_filter=None):
@@ -1002,9 +1022,10 @@ class Test(Base):
 
 
 
-class RandomSample5Mminus750k(Base):
-    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None, fold=0):
-        self.fold = fold
+class RandomSampleFrom5M(Base):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None, topology=['KNN', 30], length=750000):
+        self.topology = topology
+        self.length = length
         super().__init__(root, transform, pre_transform, pre_filter)
         self.data, self.slices = torch.load(self.processed_paths[0])
 
@@ -1014,38 +1035,52 @@ class RandomSample5Mminus750k(Base):
 
     @property
     def processed_file_names(self):
-        return [f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSample5Mminus750k_fold{self.fold}.pt']
+        return [f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSampleFrom5M_{self.topology[0]}{str(self.topology[1])}_{str(self.length/1000)}k.pt']
     
     def process(self):
         dataset = LargeNEWMC_LMDB(root='/lustre/ific.uv.es/ml/ific108/jrenner/GNN_datasets_largeMC_175_radial_nonStrict')
-        indices = torch.arange(len(dataset))
-        A, B = random_split(indices, [1500000, len(dataset)-1500000])
+        #indices = torch.arange(len(dataset))
+        A = pd.read_hdf('/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSampleFrom5M_fold0.h5')["Indices"].to_numpy()
+        #A, B = random_split(indices, [self.length, len(dataset)-self.length])
         data_list = []
         data_list += [dataset[i] for i in A]
-        store = pd.HDFStore(f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSample5Mminus750k_fold{self.fold}.h5')
-        store["Indices"] = pd.DataFrame(np.array(A), columns=["Indices"])
-        store.close()
+        #store = pd.HDFStore(f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSampleFrom5M_fold{self.fold}.h5')
+        #store["Indices"] = pd.DataFrame(np.array(A), columns=["Indices"])
+        #store.close()
 
         data, slices = InMemoryDataset.collate(data_list)
 
-        torch.save((data, slices), f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSample5Mminus750k_fold{self.fold}.pt')
+        if self.topology[0] == 'KNN':
+            self.pre_transform = T.Compose([T.KNNGraph(k=self.topology[1]), T.ToUndirected(), Tr.AddEdgeEdiff()])
+        elif self.topology[0] == 'FC':
+            self.pre_transform = Tr.FullyConnected()
+        elif self.topology[0] == 'R':
+            self.pre_transform = Tr.RadiusGraph(R=self.topology[1])
+        else:
+            self.pre_transform = None
+
+        if self.pre_transform is not None:
+            data_list = [self.pre_transform(data) for data in data_list]
+        data, slices = self.collate(data_list)
+
+        torch.save((data, slices), f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/RandomSampleFrom5M_{self.topology[0]}{str(self.topology[1])}_{str(self.length/1000)}k.pt')
 
 
 
 
 class TestBIG(Base):
-    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None, length=25000):
+    def __init__(self, root, transform=None, pre_transform=None, pre_filter=None, length=750000):
         self.length = length
         super().__init__(root, transform, pre_transform, pre_filter)
         self.data, self.slices = torch.load(self.processed_paths[0])
 
     @property
     def raw_file_names(self):
-        return np.sort([f'/lustre/ific.uv.es/ml/ific108/jrenner/GNN_datasets/voxels/{F}' for F in os.listdir('/lustre/ific.uv.es/ml/ific108/jrenner/GNN_datasets/voxels')])
+        return np.sort([f'/lustre/ific.uv.es/ml/ific108/jrenner/GNN_datasets_largeMC_175_KNN_nonStrict/voxels/{F}' for F in os.listdir('/lustre/ific.uv.es/ml/ific108/jrenner/GNN_datasets_largeMC_175_KNN_nonStrict/voxels')])[::-1]
 
     @property
     def processed_file_names(self):
-        return ['/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG.pt']
+        return [f'/lustre/ific.uv.es/ml/ific108/GNN_datasets/TestBIG_{self.length}.pt']
     
     def process(self):
         data_list = []
