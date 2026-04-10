@@ -42,24 +42,24 @@ if torch.cuda.is_available():
 
 # Configuración del entrenamiento
 config = {
-    "dataset_name": "RandomSampleFrom5M",      # Nombre del dataset a cargar
+    "dataset_name": "LargeNEWMC_R1",      # Nombre del dataset a cargar
     "batch_size": 64,                      # Tamaño del batch
     "learning_rate": 1e-4,                  # Tasa de aprendizaje
-    "n_epochs": 400,                        # Número máximo de épocas
+    "n_epochs": 1000,                        # Número máximo de épocas
     "dropout": 0.1,                         # Dropout para regularización
     "dropoutLayer": 0.4,                    # Dropout para cada layer
     "attention_heads": 4,                   # Number of Attention Heads needed for GAT,GATv2,TransformerConv ..
     "early_stop": False,                    # Activar parada temprana
     "patience": 20,                         # Número de épocas sin mejora antes de parar
     "convtype": "TransformerConv",          # supported: GCNConv, GraphConv, GATConv, GATv2Conv, TransformerConv  
-    "nConvLayers": 4,                       # Number of convolutional layers
-    "hidden_dim": 128,                       # Dimensiones ocultas de las capas del modelo
+    "nConvLayers": 6,                       # Number of convolutional layers
+    "hidden_dim": 64,                       # Dimensiones ocultas de las capas del modelo
     "useAdamW": True,                       # Usar AdamW en lugar de Adam
     "doAugmentation": False,                # incluir augmentation (rotaciones de X,Y con angulo = pi/2)
     "useGroupAddRev": False,                # operaciones invertibles reducir consumo memoria
     "transform": "",                        # Transformación de datos
     "network_file": "",                     # Nombre del archivo de red a cargar
-    "Comment": "750k R3 TransformerConv more hidden dims"              # Comentario para el entrenamiento
+    "Comment": "4.9M events 1000 epochs"              # Comentario para el entrenamiento
 }
 
 # Guardar configuración en JSON
@@ -96,9 +96,9 @@ except AttributeError:
         transform = True
         dataset = DatasetClass(root='./GNN_datasets/',transform=Transform)
     else:
-        dataset = DatasetClass(root='/lustre/ific.uv.es/ml/ific108/GNN_datasets', topology=['R',3.1], length=750000)#,
-                               #pre_transform=T.Compose([T.KNNGraph(k=30), T.ToUndirected(), Tr.AddEdgeEdiff()]))
-        #dataset = DatasetClass(root='/lustre/ific.uv.es/ml/ific108/GNN_datasets')
+        #dataset = DatasetClass(root='/lustre/ific.uv.es/ml/ific108/GNN_datasets', topology=['R',1.1], length=750000, fold=7,
+        #                       pre_transform=Tr.RadiusGraph(R=1.1))
+        dataset = DatasetClass(root='/lustre/ific.uv.es/ml/ific108/GNN_datasets')
     
 full_length = len(dataset)
 print('dataset successfully loaded!')
